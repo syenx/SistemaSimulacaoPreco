@@ -1,0 +1,3615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblCopyright" xml:space="preserve">
+    <value>Copyright © 2012 {0} :: Kraft Consulting</value>
+  </data>
+  <data name="lblHeader" xml:space="preserve">
+    <value>Portal Kraft Sales</value>
+  </data>
+  <data name="lblHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="lblLogout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="lblNaoCadastrado" xml:space="preserve">
+    <value>N&amp;atilde;o sou Cadastrado</value>
+  </data>
+  <data name="lblSenha" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="lblSenhaEsquecida" xml:space="preserve">
+    <value>Esquec&amp;iacute; Minha Senha</value>
+  </data>
+  <data name="lblUsuario" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="lblUsuarioNome" xml:space="preserve">
+    <value>Bem Vindo, {0}.</value>
+  </data>
+  <data name="ResourceError" xml:space="preserve">
+    <value>Chave Inv&amp;aacute;lida: {0}</value>
+  </data>
+  <data name="ResourceErrorHelper" xml:space="preserve">
+    <value>Par&amp;acirc;metro Vazio</value>
+  </data>
+  <data name="titTitulo" xml:space="preserve">
+    <value>| KRAFT SALES | {0}</value>
+  </data>
+  <data name="lblSelecione" xml:space="preserve">
+    <value>Selecione...</value>
+  </data>
+  <data name="lblAlertMessage" xml:space="preserve">
+    <value>Mensagem de Alerta</value>
+  </data>
+  <data name="msgErro" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar executar esta opera&amp;ccedil;&amp;atilde;o. Entre em contato com o administrador do sistema!</value>
+  </data>
+  <data name="lblAcesso" xml:space="preserve">
+    <value>&amp;Uacute;ltimo acesso: {0} de {1} de {2}, às {3}h.</value>
+  </data>
+  <data name="Janeiro" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="Outubro" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="Novembro" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="Dezembro" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="Fevereiro" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="Marco" xml:space="preserve">
+    <value>Mar&amp;ccedil;o</value>
+  </data>
+  <data name="Abril" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="Maio" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="Junho" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="Julho" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="Agosto" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="Setembro" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="lblCadUsuario" xml:space="preserve">
+    <value>Cadastro de Usu&amp;aacute;rio</value>
+  </data>
+  <data name="lblConfirmaOperacao" xml:space="preserve">
+    <value>Deseja confirmar a opera&amp;ccedil;&amp;atilde;o ?</value>
+  </data>
+  <data name="lblLimpar" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="lblNao" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="lblNaoOk" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="lblOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="lblSalvar" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="lblSim" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="lblCadastro" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="lblFamiliaComercial" xml:space="preserve">
+    <value>Fam&amp;iacute;lia comercial</value>
+  </data>
+  <data name="lblUnidadeNegocio" xml:space="preserve">
+    <value>Unidade de Neg&amp;oacute;cios</value>
+  </data>
+  <data name="lblConsulta" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="lblRelatorio" xml:space="preserve">
+    <value>Relat&amp;oacute;rio</value>
+  </data>
+  <data name="teste" xml:space="preserve">
+    <value>Teste</value>
+  </data>
+  <data name="lblErrorPage" xml:space="preserve">
+    <value>Falha na Aplica&amp;ccedil;&amp;atilde;o</value>
+  </data>
+  <data name="imgIconeLogadoHomem" xml:space="preserve">
+    <value>~/Imagens/IconeHomem.png</value>
+  </data>
+  <data name="imgIconeLogadoMulher" xml:space="preserve">
+    <value>~/Imagens/IconeMulher.png</value>
+  </data>
+  <data name="imgIconeNaoLogado" xml:space="preserve">
+    <value>~/Imagens/IconeNaoLogado.png</value>
+  </data>
+  <data name="frmData" xml:space="preserve">
+    <value>{0:dd/MM/yyyy}</value>
+  </data>
+  <data name="lblPeriodoAte" xml:space="preserve">
+    <value>At&amp;eacute;:</value>
+  </data>
+  <data name="lblPeriodoDe" xml:space="preserve">
+    <value>De:</value>
+  </data>
+  <data name="msgPeriodoDataIncioInferiorFinal" xml:space="preserve">
+    <value>Data Inicial &amp;eacute; inferior &amp;agrave; data final no per&amp;iacute;odo: {0}!</value>
+  </data>
+  <data name="msgPeriodoDataInicioNaoInformada" xml:space="preserve">
+    <value>Data inicial n&amp;atilde;o foi informada no per&amp;iacute;odo: {0}!</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lblInformeDadosUsuario" xml:space="preserve">
+    <value>Informe os dados de usuário</value>
+  </data>
+  <data name="lblNome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="lblSenhaRepetir" xml:space="preserve">
+    <value>Repita a senha</value>
+  </data>
+  <data name="lblSexo" xml:space="preserve">
+    <value>Sexo</value>
+  </data>
+  <data name="lblDadosInformados" xml:space="preserve">
+    <value>Dados informados</value>
+  </data>
+  <data name="lblSexoFeminino" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="lblSexoMasculino" xml:space="preserve">
+    <value>Masculino
+</value>
+  </data>
+  <data name="lblCadUnidadeNegocio" xml:space="preserve">
+    <value>Cadastro de unidade de neg&amp;oacute;cios</value>
+  </data>
+  <data name="lblNomeUnidadeNegocio" xml:space="preserve">
+    <value>Nome da unidade de neg&amp;oacute;cio</value>
+  </data>
+  <data name="lblObservacao" xml:space="preserve">
+    <value>Observa&amp;ccedil;&amp;otilde;es</value>
+  </data>
+  <data name="msgUnidadeNegocioNome" xml:space="preserve">
+    <value>Informe a descrição da unidade de negócio!</value>
+  </data>
+  <data name="msgDadosSalvosSucesso" xml:space="preserve">
+    <value>Dados armazenados com sucesso!</value>
+  </data>
+  <data name="lblInformeDadosUnidadeNegocio" xml:space="preserve">
+    <value>Informe os dados da unidade de neg&amp;oacute;cio</value>
+  </data>
+  <data name="msgDadosSalvosFalha" xml:space="preserve">
+    <value>Ocorreu uma falha ao tentar gravar os dados na base!</value>
+  </data>
+  <data name="msgExclusaoConfirmar" xml:space="preserve">
+    <value>Deseja realmente excluir o(s) registro(s) selecionado(s)?</value>
+  </data>
+  <data name="lblCodigo" xml:space="preserve">
+    <value>C&amp;oacute;digo</value>
+  </data>
+  <data name="lblDataCadastro" xml:space="preserve">
+    <value>Data do cadastro</value>
+  </data>
+  <data name="msgNenhumRegistro" xml:space="preserve">
+    <value>Nenhum registro encontrado!</value>
+  </data>
+  <data name="msgNenhumRegistroSelecionado" xml:space="preserve">
+    <value>Nenhum registro selecionado!</value>
+  </data>
+  <data name="ltrFiltros" xml:space="preserve">
+    <value>{0} - Filtros de pesquisa</value>
+  </data>
+  <data name="msgDadosExclusaoFalha" xml:space="preserve">
+    <value>Ocorreu um erro ao tentar excluir o(s) registro(s)!</value>
+  </data>
+  <data name="msgDadosExclusaoSucesso" xml:space="preserve">
+    <value>Dados excluidos com sucesso!</value>
+  </data>
+  <data name="lblExcluir" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="lblPesquisar" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="lblEditar" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="lblInformeDadosFamiliaComercial" xml:space="preserve">
+    <value>Informe os dados da fam&amp;iacute;lia comercial</value>
+  </data>
+  <data name="lblNomeFamiliaComercial" xml:space="preserve">
+    <value>Nome da fam&amp;iacute;lia comercial</value>
+  </data>
+  <data name="msgFamiliaComercialDescricao" xml:space="preserve">
+    <value>Informe a descrição da família comercial!</value>
+  </data>
+  <data name="lblNovo" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="msgLogout" xml:space="preserve">
+    <value>Deseja realmente sair do sistema?</value>
+  </data>
+  <data name="lblCodigoERP" xml:space="preserve">
+    <value>Código ERP</value>
+  </data>
+  <data name="lblCondicaoPagamento" xml:space="preserve">
+    <value>Condição de pagamento</value>
+  </data>
+  <data name="lblInformeDadosCondicaoPgto" xml:space="preserve">
+    <value>Informe os dados da condi&amp;ccedil;&amp;atilde;o de pagamento</value>
+  </data>
+  <data name="msgCondicaoPagamentoNome" xml:space="preserve">
+    <value>Informe o nome da condição de pagamento!</value>
+  </data>
+  <data name="lblCanalVenda" xml:space="preserve">
+    <value>Canal de vendas</value>
+  </data>
+  <data name="lblInformeDadosCanalVenda" xml:space="preserve">
+    <value>Informe os dados do canal de vendas</value>
+  </data>
+  <data name="msgCanalVendaNome" xml:space="preserve">
+    <value>Informe o nome do canal de vendas!</value>
+  </data>
+  <data name="lblCadCanalVendas" xml:space="preserve">
+    <value>Cadastro de canal de vendas</value>
+  </data>
+  <data name="lblCadCondicaoPagamento" xml:space="preserve">
+    <value>Cadastro de condi&amp;ccedil;&amp;atilde;o de pagamento</value>
+  </data>
+  <data name="lblCadFamiliaComercial" xml:space="preserve">
+    <value>Cadastro de fam&amp;iacute;lia comercial</value>
+  </data>
+  <data name="lblCadNaturezaOperacao" xml:space="preserve">
+    <value>Cadastro da natureza da opera&amp;ccedil;&amp;atilde;o</value>
+  </data>
+  <data name="lblInformeDadosNaturezaOperacao" xml:space="preserve">
+    <value>Informe os dados da natureza da opera&amp;ccedil;&amp;atilde;o</value>
+  </data>
+  <data name="lblNaturezaOperacao" xml:space="preserve">
+    <value>Natureza da opera&amp;ccedil;&amp;atilde;o</value>
+  </data>
+  <data name="msgNaturezaOperacao" xml:space="preserve">
+    <value>Informe o nome da natureza da operação!</value>
+  </data>
+  <data name="lblCadModalidadeCliente" xml:space="preserve">
+    <value>Cadastro da modalidade do cliente</value>
+  </data>
+  <data name="lblInformeDadosModalidadeCliente" xml:space="preserve">
+    <value>Informe os dados da modalidade do cliente</value>
+  </data>
+  <data name="lblModalidadeCliente" xml:space="preserve">
+    <value>Modalidade do cliente</value>
+  </data>
+  <data name="msgModalidadeCliente" xml:space="preserve">
+    <value>Informe o nome da modalidade do cliente!</value>
+  </data>
+  <data name="lblCadClienteTipo" xml:space="preserve">
+    <value>Cadastro do tipo de cliente</value>
+  </data>
+  <data name="lblClienteTipo" xml:space="preserve">
+    <value>Tipo de cliente</value>
+  </data>
+  <data name="lblInformeDadosClienteTipo" xml:space="preserve">
+    <value>Informe os dados do tipo de cliente</value>
+  </data>
+  <data name="msgClienteTipo" xml:space="preserve">
+    <value>Informe o nome do tipo de cliente!</value>
+  </data>
+  <data name="lblCadGrupoCliente" xml:space="preserve">
+    <value>Cadastro de grupo de clientes</value>
+  </data>
+  <data name="lblGrupoCliente" xml:space="preserve">
+    <value>Grupo de clientes</value>
+  </data>
+  <data name="lblInformeDadosGrupoCliente" xml:space="preserve">
+    <value>Informe os dados do grupo de clientes</value>
+  </data>
+  <data name="msgGrupoCliente" xml:space="preserve">
+    <value>Informe o nome do grupo de clientes!</value>
+  </data>
+  <data name="msgRegistroExistente" xml:space="preserve">
+    <value>Já existe registro com essa descri&amp;ccedil;&amp;atilde;o na base de dados!</value>
+  </data>
+  <data name="lblCadPortador" xml:space="preserve">
+    <value>Cadastro de portador</value>
+  </data>
+  <data name="lblInformeDadosPortador" xml:space="preserve">
+    <value>Informe os dados do portador</value>
+  </data>
+  <data name="lblPortador" xml:space="preserve">
+    <value>Portador</value>
+  </data>
+  <data name="msgPortador" xml:space="preserve">
+    <value>Informe o nome do portador!</value>
+  </data>
+  <data name="lblChaveGrupoNaoEncontrada" xml:space="preserve">
+    <value>Chave de grupos n&amp;atilde;o encontrada!</value>
+  </data>
+  <data name="lblUsuarioNaoEncontrado" xml:space="preserve">
+    <value>Usu&amp;aacute;rio n&amp;atilde;o encontrado. verifique as credenciais de acesso informadas.</value>
+  </data>
+  <data name="lblUsuarioNaoPertenceGrupo" xml:space="preserve">
+    <value>Usu&amp;aacute;rio n&amp;atilde;o pertence a nenhum grupo de acesso!</value>
+  </data>
+  <data name="lblUsuarioFalhaGravarAcesso" xml:space="preserve">
+    <value>Falha ao tentar gravar a data de acesso do usu&amp;aacute;rio.</value>
+  </data>
+  <data name="lblInformeDadosLogin" xml:space="preserve">
+    <value>Informe o login!</value>
+  </data>
+  <data name="lblInformeDadosSenha" xml:space="preserve">
+    <value>Informe sua senha!</value>
+  </data>
+  <data name="lblCadClienteEstabelecimento" xml:space="preserve">
+    <value>Cadastro de loja</value>
+  </data>
+  <data name="lblFiltrosEstabelecimentoClienteNome" xml:space="preserve">
+    <value>Nome Loja</value>
+  </data>
+  <data name="lblInformeDadosClienteEstabelecimento" xml:space="preserve">
+    <value>Informe os dados da loja</value>
+  </data>
+  <data name="lblClienteEstabelecimento" xml:space="preserve">
+    <value>Loja</value>
+  </data>
+  <data name="msgClienteEstabelecimento" xml:space="preserve">
+    <value>Informe o nome da loja do cliente!</value>
+  </data>
+  <data name="lblCadUnidadeMedida" xml:space="preserve">
+    <value>Cadastro de unidades de medida</value>
+  </data>
+  <data name="lblInformeDadosUnidadeMedida" xml:space="preserve">
+    <value>Informe os dados da unidade de medida</value>
+  </data>
+  <data name="lblSigla" xml:space="preserve">
+    <value>Sigla</value>
+  </data>
+  <data name="lblUnidadeMedida" xml:space="preserve">
+    <value>Unidade de medida</value>
+  </data>
+  <data name="msgUnidadeMedidaSigla" xml:space="preserve">
+    <value>Informe a sigla da unidade de medida!</value>
+  </data>
+  <data name="lblCadPedidoTipo" xml:space="preserve">
+    <value>Cadastro de tipo de pedido</value>
+  </data>
+  <data name="lblInformeDadosPedidoTipo" xml:space="preserve">
+    <value>Informe os dados do tipo de pedido</value>
+  </data>
+  <data name="lblPedidoTipo" xml:space="preserve">
+    <value>Tipo de pedido</value>
+  </data>
+  <data name="msgPedidoTipoDescricao" xml:space="preserve">
+    <value>Informe a descrição do tipo de pedido!</value>
+  </data>
+  <data name="lblAutenticaAD" xml:space="preserve">
+    <value>Autentica ad?</value>
+  </data>
+  <data name="lblRepresentante" xml:space="preserve">
+    <value>Representante</value>
+  </data>
+  <data name="lblFechar" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="lblNomeAbreviado" xml:space="preserve">
+    <value>Nome abreviado</value>
+  </data>
+  <data name="lblApoio" xml:space="preserve">
+    <value>Apoio</value>
+  </data>
+  <data name="lblCliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="lblRepresentanteBusca" xml:space="preserve">
+    <value>Pesquisa de representantes</value>
+  </data>
+  <data name="lblTipoUsuario" xml:space="preserve">
+    <value>Tipo de usu&amp;aacute;rio</value>
+  </data>
+  <data name="msgInformeDadosUsuarioCodigo" xml:space="preserve">
+    <value>Informe o código do usuário!</value>
+  </data>
+  <data name="msgInformeDadosUsuarioEmail" xml:space="preserve">
+    <value>Informe o e-mail do usuário!</value>
+  </data>
+  <data name="msgInformeDadosUsuarioNome" xml:space="preserve">
+    <value>Informe o nome do usuário!</value>
+  </data>
+  <data name="msgInformeDadosUsuarioSenha" xml:space="preserve">
+    <value>Informe a senha do usuário!</value>
+  </data>
+  <data name="lblUsuarioCadastroSucesso" xml:space="preserve">
+    <value>Usuário cadastrado com sucesso!</value>
+  </data>
+  <data name="msgRepresentanteCodigoInvalido" xml:space="preserve">
+    <value>C&amp;oacute;digo do representante inv&amp;aacute;lido!</value>
+  </data>
+  <data name="msgRepresentanteFalhaVinculoUsuario" xml:space="preserve">
+    <value>Falha ao tentar vincular o usu&amp;aacute;rio ao representante!</value>
+  </data>
+  <data name="msgUsuarioCadastroFalha" xml:space="preserve">
+    <value>Falha ao tentar cadastrar o usu&amp;aacute;rio!</value>
+  </data>
+  <data name="msgEmailInformadoInvalido" xml:space="preserve">
+    <value>E-mail informado inválido!</value>
+  </data>
+  <data name="lblRepresentanteId" xml:space="preserve">
+    <value>C&amp;oacute;digo representante</value>
+  </data>
+  <data name="lblCadDominio" xml:space="preserve">
+    <value>Cadastro de dominio</value>
+  </data>
+  <data name="lblDescricao" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="lblDominio" xml:space="preserve">
+    <value>Dominio</value>
+  </data>
+  <data name="lblInformeDadosDominio" xml:space="preserve">
+    <value>Informe os dados do dominio</value>
+  </data>
+  <data name="lblLDAP" xml:space="preserve">
+    <value>LDAP</value>
+  </data>
+  <data name="lblServidor" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="msgDominioDescricao" xml:space="preserve">
+    <value>Informe a descrição do dominio!</value>
+  </data>
+  <data name="msgDominioId" xml:space="preserve">
+    <value>Informe o código do dominio!</value>
+  </data>
+  <data name="msgDominioLDAP" xml:space="preserve">
+    <value>Informe o servidor LDAP!</value>
+  </data>
+  <data name="msgDominioServidor" xml:space="preserve">
+    <value>Informe o servidor do dominio!</value>
+  </data>
+  <data name="msgDominioInformeObrigatorio" xml:space="preserve">
+    <value>Informe o dominio!</value>
+  </data>
+  <data name="lblId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="msgCondicaoPagamentoId" xml:space="preserve">
+    <value>Informe o código da condição de pagamento!</value>
+  </data>
+  <data name="msgCanalVendaId" xml:space="preserve">
+    <value>Informe o código do canal de vendas!</value>
+  </data>
+  <data name="msgFamiliaComercialCodigo" xml:space="preserve">
+    <value>Informe o código da família comercial!</value>
+  </data>
+  <data name="msgUnidadeNegocioId" xml:space="preserve">
+    <value>Informe o código da unidade de negócio!</value>
+  </data>
+  <data name="lblCadCondicaoPagamentoParcela" xml:space="preserve">
+    <value>Cadastro de parcelas da condi&amp;ccedil;&amp;atilde;o de pagamento</value>
+  </data>
+  <data name="lblCondicaoPagamentoParcela" xml:space="preserve">
+    <value>Parcela da condição de pagamento</value>
+  </data>
+  <data name="lblDias" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="lblParcela" xml:space="preserve">
+    <value>Parcela</value>
+  </data>
+  <data name="lblPercentual" xml:space="preserve">
+    <value>Percentual</value>
+  </data>
+  <data name="msgCondicaoPagamentoParcelaCondicao" xml:space="preserve">
+    <value>Informe a condição de pagamento!</value>
+  </data>
+  <data name="msgCondicaoPagamentoParcelaDias" xml:space="preserve">
+    <value>Informe a quantidade de dias!</value>
+  </data>
+  <data name="msgCondicaoPagamentoParcelaPercentual" xml:space="preserve">
+    <value>Informe o percentual da parcela!</value>
+  </data>
+  <data name="msgCondicaoPagamentoParcelaId" xml:space="preserve">
+    <value>Informe o código da parcela!</value>
+  </data>
+  <data name="lblNaturezaOperacaoCFOP" xml:space="preserve">
+    <value>CFOP</value>
+  </data>
+  <data name="msgNaturezaOperacaoCFOP" xml:space="preserve">
+    <value>Informe o cfop da natureza de operação!</value>
+  </data>
+  <data name="msgNaturezaOperacaoDescricao" xml:space="preserve">
+    <value>Informe a descrição da natureza de operação!</value>
+  </data>
+  <data name="msgNaturezaOperacaoId" xml:space="preserve">
+    <value>Informe o código da natureza de operação!</value>
+  </data>
+  <data name="msgUnidadeMedidaDescricao" xml:space="preserve">
+    <value>Informe a descrição da unidade de medida!</value>
+  </data>
+  <data name="msgUnidadeMedidaId" xml:space="preserve">
+    <value>Informe o código da unidade de medida!</value>
+  </data>
+  <data name="msgRepresentanteId" xml:space="preserve">
+    <value>Informe o código do representante!</value>
+  </data>
+  <data name="msgRepresentanteNome" xml:space="preserve">
+    <value>Informe o nome do representante!</value>
+  </data>
+  <data name="msgRepresentanteNomeAbreviado" xml:space="preserve">
+    <value>Informe o nome abreviado do representante!</value>
+  </data>
+  <data name="lblEmpresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="lblNomeFantasia" xml:space="preserve">
+    <value>Nome fantasia</value>
+  </data>
+  <data name="lblRazaoSocial" xml:space="preserve">
+    <value>Razão Social</value>
+  </data>
+  <data name="msgEmpresaId" xml:space="preserve">
+    <value>Informe o código da empresa!</value>
+  </data>
+  <data name="msgEmpresaNomeFantasia" xml:space="preserve">
+    <value>Informe o nome fantasia da empresa!</value>
+  </data>
+  <data name="msgEmpresaRazaoSocial" xml:space="preserve">
+    <value>Informe a razão social da empresa!</value>
+  </data>
+  <data name="lblFormatoDecimal" xml:space="preserve">
+    <value>{0:###,###,###,##0.00}</value>
+  </data>
+  <data name="lblCadClienteGrupoComercial" xml:space="preserve">
+    <value>Cadastro de grupo de clientes</value>
+  </data>
+  <data name="lblCadClienteGrupoFinanceiro" xml:space="preserve">
+    <value>Cadastro de grupo financeiro</value>
+  </data>
+  <data name="lblClienteGrupoComercial" xml:space="preserve">
+    <value>Grupo de clientes</value>
+  </data>
+  <data name="lblClienteGrupoFinanceiro" xml:space="preserve">
+    <value>Grupo financeiro</value>
+  </data>
+  <data name="lblInformeDadosGrupoComercial" xml:space="preserve">
+    <value>Informe os dados do grupo de clientes</value>
+  </data>
+  <data name="lblInformeDadosGrupoFinanceiro" xml:space="preserve">
+    <value>Informe os dados do grupo financeiro</value>
+  </data>
+  <data name="msgGrupoComercialId" xml:space="preserve">
+    <value>Informe o código do grupo de clientes!</value>
+  </data>
+  <data name="msgGrupoComercialNome" xml:space="preserve">
+    <value>Informe o nome do grupo de clientes!</value>
+  </data>
+  <data name="msgGrupoComercialNomeAbreviado" xml:space="preserve">
+    <value>Informe o nome abreviado do grupo de clientes!</value>
+  </data>
+  <data name="msgGrupoFinaceiroId" xml:space="preserve">
+    <value>Informe o código do grupo financeiro!</value>
+  </data>
+  <data name="msgGrupoFinanceiroNome" xml:space="preserve">
+    <value>Informe o nome do grupo financeiro!</value>
+  </data>
+  <data name="msgGrupoFinanceiroNomeAbreviado" xml:space="preserve">
+    <value>Informe o nome abreviado do grupo financeiro!</value>
+  </data>
+  <data name="lblCadEmpresa" xml:space="preserve">
+    <value>Cadastro de canal de empresa</value>
+  </data>
+  <data name="lblCadRepresentante" xml:space="preserve">
+    <value>Cadastro de canal representante</value>
+  </data>
+  <data name="msgEstabelecimentoId" xml:space="preserve">
+    <value>Informe o código da loja!</value>
+  </data>
+  <data name="msgEstabelecimentoRazaoSocial" xml:space="preserve">
+    <value>Informe a razão social da loja!</value>
+  </data>
+  <data name="lblCadPais" xml:space="preserve">
+    <value>Cadastro de paises</value>
+  </data>
+  <data name="lblInformeDadosPais" xml:space="preserve">
+    <value>Informe os dados de país</value>
+  </data>
+  <data name="lblPais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="lblVoltar" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="msgPaisId" xml:space="preserve">
+    <value>Informe o código do país!</value>
+  </data>
+  <data name="msgPaisNome" xml:space="preserve">
+    <value>Informe o nome do país!</value>
+  </data>
+  <data name="msgPaisSigla" xml:space="preserve">
+    <value>Informe a sigla do país!</value>
+  </data>
+  <data name="lblInformeDadosEmpresa" xml:space="preserve">
+    <value>Informe os dados da empresa</value>
+  </data>
+  <data name="lblInformeDadosRepresentante" xml:space="preserve">
+    <value>Informe os dados do representante</value>
+  </data>
+  <data name="lblCadGrupoEstoque" xml:space="preserve">
+    <value>Cadastro de grupo de estoque</value>
+  </data>
+  <data name="lblGurpoEstoque" xml:space="preserve">
+    <value>Grupo de estoque</value>
+  </data>
+  <data name="lblInformeDadosGrupoEstoque" xml:space="preserve">
+    <value>Informe os dados do grupo de estoque</value>
+  </data>
+  <data name="msgGrupoEstoqueDescricao" xml:space="preserve">
+    <value>Informe a descrição do grupo de estoque!</value>
+  </data>
+  <data name="msgGrupoEstoqueId" xml:space="preserve">
+    <value>Informe o código do grupo de estoque!</value>
+  </data>
+  <data name="lblGrupoEstoque" xml:space="preserve">
+    <value>Grupo estoque</value>
+  </data>
+  <data name="lblUf" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="msgIdJaExistente" xml:space="preserve">
+    <value>O c&amp;oacute;digo {0} j&amp;aacute; foi informado!</value>
+  </data>
+  <data name="msgInformeUnidadeNegocio" xml:space="preserve">
+    <value>Informe a unidade de negócio!</value>
+  </data>
+  <data name="lblCadFamiliaMaterial" xml:space="preserve">
+    <value>Cadastro de fam&amp;iacute;lia material</value>
+  </data>
+  <data name="lblFamiliaMaterial" xml:space="preserve">
+    <value>Fam&amp;iacute;lia material</value>
+  </data>
+  <data name="lblInformeDadosFamiliaMaterial" xml:space="preserve">
+    <value>Informe os dados da fam&amp;iacute;lia material</value>
+  </data>
+  <data name="msgFamiliaMaterialDescricao" xml:space="preserve">
+    <value>Informe a descrição da família material!</value>
+  </data>
+  <data name="msgFamiliaMaterialId" xml:space="preserve">
+    <value>Informe o código da familia material!</value>
+  </data>
+  <data name="msgEstadoNome" xml:space="preserve">
+    <value>Informe o nome da UF!</value>
+  </data>
+  <data name="msgUfId" xml:space="preserve">
+    <value>Informe o código da UF!</value>
+  </data>
+  <data name="msgUfPaisId" xml:space="preserve">
+    <value>Informe o país!</value>
+  </data>
+  <data name="lblCadMercado" xml:space="preserve">
+    <value>Cadastro de mercado</value>
+  </data>
+  <data name="lblInformeDadosMercado" xml:space="preserve">
+    <value>Informe os dados do mercado</value>
+  </data>
+  <data name="lblMercado" xml:space="preserve">
+    <value>Mercado</value>
+  </data>
+  <data name="msgMercadoDescricao" xml:space="preserve">
+    <value>Informe a descrição do mercado!</value>
+  </data>
+  <data name="msgMercadoId" xml:space="preserve">
+    <value>Informe o código do mercado!</value>
+  </data>
+  <data name="lblCadDepartamento" xml:space="preserve">
+    <value>Cadastro de departamento</value>
+  </data>
+  <data name="lblDepartamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="msgDepartamentoDescricao" xml:space="preserve">
+    <value>Informe a descricao do departamento!</value>
+  </data>
+  <data name="msgDepartamentoId" xml:space="preserve">
+    <value>Informe o código do departamento!</value>
+  </data>
+  <data name="lblInformeDadosDepartamento" xml:space="preserve">
+    <value>Informe dados do departamento!</value>
+  </data>
+  <data name="lblCadTipoDocumento" xml:space="preserve">
+    <value>Tipo de documento</value>
+  </data>
+  <data name="lblInformeDadosTipoDocumento" xml:space="preserve">
+    <value>Informe os dados do tipo de documento</value>
+  </data>
+  <data name="lblTipoDocumento" xml:space="preserve">
+    <value>Tipo de documento</value>
+  </data>
+  <data name="msgTipoDocumentoDescricao" xml:space="preserve">
+    <value>Informe a descrição do tipo de documento!</value>
+  </data>
+  <data name="msgTipoDocumentoId" xml:space="preserve">
+    <value>Informe o código do tipo de documento!</value>
+  </data>
+  <data name="lblCadTipoEndereco" xml:space="preserve">
+    <value>Cadastro de tipo de endere&amp;ccedil;o</value>
+  </data>
+  <data name="lblInformeDadosTipoEndereco" xml:space="preserve">
+    <value>Informe os dados do tipo de endereço</value>
+  </data>
+  <data name="lblTipoEndereco" xml:space="preserve">
+    <value>Tipo de endere&amp;ccedil;o</value>
+  </data>
+  <data name="msgTipoEnderecoId" xml:space="preserve">
+    <value>Informe o código do tipo de endereço!</value>
+  </data>
+  <data name="msgTipoEnderecoDescricao" xml:space="preserve">
+    <value>Informe a descrição do tipo de endereço!</value>
+  </data>
+  <data name="lblCadClassificacaoFiscal" xml:space="preserve">
+    <value>Cadastro de classificacao fiscal</value>
+  </data>
+  <data name="lblClassificacaoFiscal" xml:space="preserve">
+    <value>Classificação fiscal</value>
+  </data>
+  <data name="lblClassificacaoFiscalNCM" xml:space="preserve">
+    <value>NCM</value>
+  </data>
+  <data name="lblInformeDadosClassificacaoFiscal" xml:space="preserve">
+    <value>Informe dados da classificação fiscal!</value>
+  </data>
+  <data name="msgClassificacaoFiscalDescricao" xml:space="preserve">
+    <value>Informe a descrição da classificação fiscal</value>
+  </data>
+  <data name="msgClassificacaoFiscalId" xml:space="preserve">
+    <value>Informe o código da classificação fiscal!</value>
+  </data>
+  <data name="msgClassificacaoFiscalNCM" xml:space="preserve">
+    <value>Informe o ncm da classificação fiscal!</value>
+  </data>
+  <data name="lblCadClienteCategoria" xml:space="preserve">
+    <value>Cadastro de categoria do cliente</value>
+  </data>
+  <data name="lblClienteCategoria" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="lblInformeDadosClienteCategoria" xml:space="preserve">
+    <value>Informe os dados da categoria do cliente</value>
+  </data>
+  <data name="msgClienteCategoriaDescricao" xml:space="preserve">
+    <value>Informe a descrição da categoria do cliente!</value>
+  </data>
+  <data name="msgClienteCategoriaId" xml:space="preserve">
+    <value>Informe o código da categoria do cliente!</value>
+  </data>
+  <data name="lblCadTipoMotivo" xml:space="preserve">
+    <value>Cadastro de tipo de motivos</value>
+  </data>
+  <data name="lblCategoria" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="lblInformeDadosTipoMotivo" xml:space="preserve">
+    <value>Informe os dados do tipo do motivo</value>
+  </data>
+  <data name="lblTipoMotivo" xml:space="preserve">
+    <value>Tipo motivo</value>
+  </data>
+  <data name="msgTipoMotivoCategoria" xml:space="preserve">
+    <value>Informe a categoria do tipo de motivo!</value>
+  </data>
+  <data name="msgTipoMotivoDescricao" xml:space="preserve">
+    <value>Informe a descrição do tipo de motivo!</value>
+  </data>
+  <data name="msgTipoMotivoId" xml:space="preserve">
+    <value>Informe o código do tipo do motivo!</value>
+  </data>
+  <data name="lblCadFabricante" xml:space="preserve">
+    <value>Cadastro de fabricante</value>
+  </data>
+  <data name="lblCNPJ" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="lblContato" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="lblEndereco" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="lblEnderecoCep" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="lblEnderecoComplemento" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="lblEnderecoNumero" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="lblFabricante" xml:space="preserve">
+    <value>Fabricante</value>
+  </data>
+  <data name="lblIE" xml:space="preserve">
+    <value>Inscrição estadual</value>
+  </data>
+  <data name="lblInformeDadosFabricante" xml:space="preserve">
+    <value>Informe dados do fabricante!</value>
+  </data>
+  <data name="lblTelefone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="lblTelefone2" xml:space="preserve">
+    <value>Telefone 2</value>
+  </data>
+  <data name="msgFabricanteCnpj" xml:space="preserve">
+    <value>Informe o CNPJ do fabricante!</value>
+  </data>
+  <data name="msgFabricanteContato" xml:space="preserve">
+    <value>Informe o contato do fabricante!</value>
+  </data>
+  <data name="msgFabricanteEmail" xml:space="preserve">
+    <value>Informe o e-mail do fabricante!</value>
+  </data>
+  <data name="msgFabricanteEndereco" xml:space="preserve">
+    <value>Informe o endereço do fabricante!</value>
+  </data>
+  <data name="msgFabricanteEnderecoCep" xml:space="preserve">
+    <value>Informe o cep do endereço do fabricante!</value>
+  </data>
+  <data name="msgFabricanteEnderecoComplemento" xml:space="preserve">
+    <value>Informe o complemento do endereço do fabricante!</value>
+  </data>
+  <data name="msgFabricanteEnderecoNumero" xml:space="preserve">
+    <value>Informe o número do endereço do fabricante!</value>
+  </data>
+  <data name="msgFabricanteId" xml:space="preserve">
+    <value>Informe o código do fabricante!</value>
+  </data>
+  <data name="msgFabricanteIE" xml:space="preserve">
+    <value>Informe a inscriçao estadual do fabricante!</value>
+  </data>
+  <data name="msgFabricanteNome" xml:space="preserve">
+    <value>Informe o nome do fabricante!</value>
+  </data>
+  <data name="msgFabricanteNomeAbreviado" xml:space="preserve">
+    <value>Informe o nome abreviado do fabricante!</value>
+  </data>
+  <data name="msgFabricanteObservacoes" xml:space="preserve">
+    <value>Informe a observação do fabricante!</value>
+  </data>
+  <data name="msgFabricanteTelefone" xml:space="preserve">
+    <value>Informe o telefone do fabricante!</value>
+  </data>
+  <data name="msgFabricanteTelefone2" xml:space="preserve">
+    <value>Informe o segundo telefone do fabricante!</value>
+  </data>
+  <data name="lblPedidoTipoTriangular" xml:space="preserve">
+    <value>Pedido Triangular?</value>
+  </data>
+  <data name="msgFabricantePais" xml:space="preserve">
+    <value>Informe o país do fabricante!</value>
+  </data>
+  <data name="msgFabricanteUf" xml:space="preserve">
+    <value>Informe a UF do fabricante!</value>
+  </data>
+  <data name="msgMedicoId" xml:space="preserve">
+    <value>Informe o código do médico!</value>
+  </data>
+  <data name="msgMedicoNome" xml:space="preserve">
+    <value>Informe o nome do médico!</value>
+  </data>
+  <data name="msgMedicoPais" xml:space="preserve">
+    <value>Informe o país do médico!</value>
+  </data>
+  <data name="msgMedicoUf" xml:space="preserve">
+    <value>Informe a UF do médico!</value>
+  </data>
+  <data name="lblCadMedico" xml:space="preserve">
+    <value>Médico</value>
+  </data>
+  <data name="lblInformeDadosMedico" xml:space="preserve">
+    <value>Infome os dados do Médico</value>
+  </data>
+  <data name="lblMedico" xml:space="preserve">
+    <value>Médico</value>
+  </data>
+  <data name="msgPedidoTipoId" xml:space="preserve">
+    <value>Informe o código do tipo de pedido!</value>
+  </data>
+  <data name="lblItemControlado" xml:space="preserve">
+    <value>Controlado</value>
+  </data>
+  <data name="lblItemRefrigerado" xml:space="preserve">
+    <value>Item refrigerado?</value>
+  </data>
+  <data name="lblCadItem" xml:space="preserve">
+    <value>Cadastro de item</value>
+  </data>
+  <data name="lblItem" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="msgItemDescricao" xml:space="preserve">
+    <value>Informe a descrição do item!</value>
+  </data>
+  <data name="msgItemId" xml:space="preserve">
+    <value>Informe o código do item!</value>
+  </data>
+  <data name="lblInformeDadosItem" xml:space="preserve">
+    <value>Informe os dados do item</value>
+  </data>
+  <data name="lblInfoComplementar" xml:space="preserve">
+    <value>Informação complementar</value>
+  </data>
+  <data name="lblPesoBruto" xml:space="preserve">
+    <value>Peso bruto</value>
+  </data>
+  <data name="lblPesoLiquido" xml:space="preserve">
+    <value>Peso liquido</value>
+  </data>
+  <data name="msgInformeClassificacaoFiscal" xml:space="preserve">
+    <value>Informe a classificação fiscal!</value>
+  </data>
+  <data name="msgInformeFabricante" xml:space="preserve">
+    <value>Informe o fabricante!</value>
+  </data>
+  <data name="msgInformeFamiliaComercial" xml:space="preserve">
+    <value>Informe a família comercial!</value>
+  </data>
+  <data name="msgInformeFamiliaMaterial" xml:space="preserve">
+    <value>Informe a família material!</value>
+  </data>
+  <data name="msgInformeGrupoEstoque" xml:space="preserve">
+    <value>Informe o grupo estoque!</value>
+  </data>
+  <data name="msgInformeUnidadeMedida" xml:space="preserve">
+    <value>Informe a unidade de medida!</value>
+  </data>
+  <data name="lblInformeDadosPagamentoParcela" xml:space="preserve">
+    <value>Infome os dados da parcela da condição de pagamento</value>
+  </data>
+  <data name="lblTipoPessoaFisica" xml:space="preserve">
+    <value>Pessoa fisica</value>
+  </data>
+  <data name="lblTipoPessoaFisicaValue" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lblTipoPessoaJuridica" xml:space="preserve">
+    <value>Pessoa juridica</value>
+  </data>
+  <data name="lblTipoPessoaJuridicaValue" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="lblCadClienteContato" xml:space="preserve">
+    <value>Cadastro de Cliente Contato</value>
+  </data>
+  <data name="lblCelular" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="lblClienteContato" xml:space="preserve">
+    <value>Cliente Contato</value>
+  </data>
+  <data name="lblContatoPrincipal" xml:space="preserve">
+    <value>Contato Principal</value>
+  </data>
+  <data name="lblRamal" xml:space="preserve">
+    <value>Ramal</value>
+  </data>
+  <data name="lblSequencia" xml:space="preserve">
+    <value>Sequência</value>
+  </data>
+  <data name="msgClienteContatoCelular" xml:space="preserve">
+    <value>Informe o celular</value>
+  </data>
+  <data name="msgClienteContatoEmail" xml:space="preserve">
+    <value>Informe o e-mail</value>
+  </data>
+  <data name="msgClienteContatoNome" xml:space="preserve">
+    <value>Informe o nome</value>
+  </data>
+  <data name="msgClienteContatoSeq" xml:space="preserve">
+    <value>Informe a sequência</value>
+  </data>
+  <data name="msgClienteContatoTelefone" xml:space="preserve">
+    <value>Informe o telefone</value>
+  </data>
+  <data name="msgObservacao" xml:space="preserve">
+    <value>Informe a observação</value>
+  </data>
+  <data name="lblCadCliente" xml:space="preserve">
+    <value>Cadastro de cliente</value>
+  </data>
+  <data name="lblCpf" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="lblInformeDadosCliente" xml:space="preserve">
+    <value>Informe os dados do cliente</value>
+  </data>
+  <data name="lblInscricaoEstadual" xml:space="preserve">
+    <value>Inscri&amp;ccedil;&amp;atilde;o estadual</value>
+  </data>
+  <data name="lblIsentoIE" xml:space="preserve">
+    <value>Isento IE?</value>
+  </data>
+  <data name="lblMatrizFinanceira" xml:space="preserve">
+    <value>Matriz financeira?</value>
+  </data>
+  <data name="lblRg" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="lblRgDataEmissao" xml:space="preserve">
+    <value>Data emiss&amp;atilde;o</value>
+  </data>
+  <data name="lblRgOrgao" xml:space="preserve">
+    <value>&amp;Oacute;rg&amp;atilde;o expedidor</value>
+  </data>
+  <data name="lblTipoCredito" xml:space="preserve">
+    <value>Tipo de cr&amp;eacute;dito</value>
+  </data>
+  <data name="lblTipoPessoa" xml:space="preserve">
+    <value>Tipo pessoa</value>
+  </data>
+  <data name="lblValorCredito" xml:space="preserve">
+    <value>Valor do cr&amp;eacute;dito</value>
+  </data>
+  <data name="lblContatos" xml:space="preserve">
+    <value>Contatos</value>
+  </data>
+  <data name="lblDocumentos" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="lblValidade" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="lblValido" xml:space="preserve">
+    <value>Documento valido</value>
+  </data>
+  <data name="lblCadClienteDocumento" xml:space="preserve">
+    <value>Cliente Documento</value>
+  </data>
+  <data name="lblClienteDocumento" xml:space="preserve">
+    <value>Cliente Documento</value>
+  </data>
+  <data name="lblEmpresaRazaoSocial" xml:space="preserve">
+    <value>Razão Social Empresa</value>
+  </data>
+  <data name="lblInformeDadosClienteDocumento" xml:space="preserve">
+    <value>Informe dados do cliente documento</value>
+  </data>
+  <data name="msgClienteContatoObservacoes" xml:space="preserve">
+    <value>Informe as observações</value>
+  </data>
+  <data name="msgClienteContatoParcelaCondicaoDepartamento" xml:space="preserve">
+    <value>Informe o departamento</value>
+  </data>
+  <data name="msgClienteDocumentoNomeArquivo" xml:space="preserve">
+    <value>Informe o nome do arquivo</value>
+  </data>
+  <data name="msgClienteDocumentoObservacoes" xml:space="preserve">
+    <value>Informe as observações</value>
+  </data>
+  <data name="msgClienteDocumentoSeq" xml:space="preserve">
+    <value>Informe a sequência </value>
+  </data>
+  <data name="msgClienteTipoDocumento" xml:space="preserve">
+    <value>Informe o tipo do documento</value>
+  </data>
+  <data name="msgClienteCnpj" xml:space="preserve">
+    <value>Informe o CNPJ do cliente!</value>
+  </data>
+  <data name="msgClienteCpf" xml:space="preserve">
+    <value>Informe o CPF do cliente!</value>
+  </data>
+  <data name="msgClienteId" xml:space="preserve">
+    <value>Informe o código do cliente!</value>
+  </data>
+  <data name="msgClienteIE" xml:space="preserve">
+    <value>Informe a inscrição estadual do cliente!</value>
+  </data>
+  <data name="lblCadClienteEndereco" xml:space="preserve">
+    <value>Cliente Endereço</value>
+  </data>
+  <data name="lblClienteEndereco" xml:space="preserve">
+    <value>Cliente Endereço</value>
+  </data>
+  <data name="lblContatosHeader" xml:space="preserve">
+    <value>Cliente x Contatos</value>
+  </data>
+  <data name="lblDocumentosHeader" xml:space="preserve">
+    <value>Cliente x Documentos</value>
+  </data>
+  <data name="lblEnderecoHeader" xml:space="preserve">
+    <value>Cliente x Endereços</value>
+  </data>
+  <data name="lblInformeDadosClienteEndereco" xml:space="preserve">
+    <value>Informe os dados de cliente endereço</value>
+  </data>
+  <data name="lblTipoPedido" xml:space="preserve">
+    <value>Tipo Pedido</value>
+  </data>
+  <data name="lblTipoPedidoHeader" xml:space="preserve">
+    <value>Cliente x Tipo Pedidos</value>
+  </data>
+  <data name="msgClienteEnderecoPais" xml:space="preserve">
+    <value>Informe o País</value>
+  </data>
+  <data name="msgClienteEnderecoUf" xml:space="preserve">
+    <value>Informe a UF</value>
+  </data>
+  <data name="lblInformeDadosClienteTipoPedido" xml:space="preserve">
+    <value>Informe os dados do tipo de pedido do cliente</value>
+  </data>
+  <data name="lblInformeDadosClienteContato" xml:space="preserve">
+    <value>Informe os dados do cliente contato</value>
+  </data>
+  <data name="lblAprovacao" xml:space="preserve">
+    <value>Aprovação</value>
+  </data>
+  <data name="lblCancelamento" xml:space="preserve">
+    <value>Cancelamento</value>
+  </data>
+  <data name="lblSelecionarTodos" xml:space="preserve">
+    <value>Selecionar Todos</value>
+  </data>
+  <data name="lblCondicaoPagamentoParcelaBotao" xml:space="preserve">
+    <value>Parcela</value>
+  </data>
+  <data name="lblClienteNomeFantasia" xml:space="preserve">
+    <value>Nome fantasia</value>
+  </data>
+  <data name="lblClienteRazaoSocial" xml:space="preserve">
+    <value>Raz&amp;atilde;o social</value>
+  </data>
+  <data name="msgClienteNome" xml:space="preserve">
+    <value>Informe o nome do cliente!</value>
+  </data>
+  <data name="msgClienteRazaoSocial" xml:space="preserve">
+    <value>Informe a razão social do cliente!</value>
+  </data>
+  <data name="lblCadUf" xml:space="preserve">
+    <value>Cadastro de UF</value>
+  </data>
+  <data name="lblInformeDadosUf" xml:space="preserve">
+    <value>Informe os dados da UF</value>
+  </data>
+  <data name="lblEmpresaBusca" xml:space="preserve">
+    <value>Busca de Empresa</value>
+  </data>
+  <data name="lblUnidadeNegocioUsuario" xml:space="preserve">
+    <value>Usuário x Unidade Negócio</value>
+  </data>
+  <data name="lblAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="lblApoioVenda" xml:space="preserve">
+    <value>Apoio à venda</value>
+  </data>
+  <data name="lblGerente" xml:space="preserve">
+    <value>Gerente</value>
+  </data>
+  <data name="lblSupervisor" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="lblVendedor" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="lblCadUnidadeNegocioUsuario" xml:space="preserve">
+    <value>Cadastro de Usuário x Unidade Negócio</value>
+  </data>
+  <data name="lblInformeDadosUnidadeNegocioUsuario" xml:space="preserve">
+    <value>Informe os dados de Usuário x Unidade Negócio</value>
+  </data>
+  <data name="lblUsuarioId" xml:space="preserve">
+    <value>Cógido do usuário</value>
+  </data>
+  <data name="lblUsuarioAprovaCredito" xml:space="preserve">
+    <value>Aprova Crédito</value>
+  </data>
+  <data name="lblUsuarioAprovaPedido" xml:space="preserve">
+    <value>Aprova Pedido</value>
+  </data>
+  <data name="lblUsuarioBandaMaxima" xml:space="preserve">
+    <value>Banda Máxima</value>
+  </data>
+  <data name="lblUsuarioBandaMinima" xml:space="preserve">
+    <value>Banda Mínima</value>
+  </data>
+  <data name="msgInformeUsuarioTipo" xml:space="preserve">
+    <value>Informe o tipo do usuário!</value>
+  </data>
+  <data name="lblInformeUsuarioBandaMaxima" xml:space="preserve">
+    <value>Informe a banda máxima do usuário</value>
+  </data>
+  <data name="lblInformeUsuarioBandaMinima" xml:space="preserve">
+    <value>Informe a banda mínima do usuário</value>
+  </data>
+  <data name="lblInformeUsuarioId" xml:space="preserve">
+    <value>Informe o código do usuário</value>
+  </data>
+  <data name="lblInformeUsuarioNome" xml:space="preserve">
+    <value>Informe o nome do usuário</value>
+  </data>
+  <data name="lblInformeSelecioneUsuario" xml:space="preserve">
+    <value>Selecione um usuáio</value>
+  </data>
+  <data name="lblUsuarioHeader" xml:space="preserve">
+    <value>Usuário x Unidade Negócio</value>
+  </data>
+  <data name="msgRegistroEmpresaExistente" xml:space="preserve">
+    <value>Não Existe empresa cadastrada com o código e razão social informados</value>
+  </data>
+  <data name="erroParametroValores" xml:space="preserve">
+    <value>Verifique se os valores foram cadastrados corretamente!</value>
+  </data>
+  <data name="lblCadParametro" xml:space="preserve">
+    <value>Cadastro de Parametros</value>
+  </data>
+  <data name="lblInformeDadosParametro" xml:space="preserve">
+    <value>Informe o valor do parametro</value>
+  </data>
+  <data name="lblParametro" xml:space="preserve">
+    <value>Parametros</value>
+  </data>
+  <data name="lblTipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lblValor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="lblFinanceiro" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="lblFiscal" xml:space="preserve">
+    <value>Fiscal</value>
+  </data>
+  <data name="lblPerfil" xml:space="preserve">
+    <value>Perfil de Acesso</value>
+  </data>
+  <data name="lblInformeDadosPerfilAcesso" xml:space="preserve">
+    <value>Informe os dados do perfil de acesso</value>
+  </data>
+  <data name="lblPerfilAcesso" xml:space="preserve">
+    <value>Perfil acesso</value>
+  </data>
+  <data name="lblCadPerfilAcesso" xml:space="preserve">
+    <value>Cadastro de perfil de acesso</value>
+  </data>
+  <data name="msgPerfilAcessoInformeObrigatorio" xml:space="preserve">
+    <value>Informe o perfil de acesso</value>
+  </data>
+  <data name="msgPerfilAcessoDescricao" xml:space="preserve">
+    <value>Informe a descrição do perfil de acesso!</value>
+  </data>
+  <data name="msgPerfilAcessoId" xml:space="preserve">
+    <value>Informe o código do perfil de acesso!</value>
+  </data>
+  <data name="lblEmailComercial" xml:space="preserve">
+    <value>E-mail Comercial</value>
+  </data>
+  <data name="lblEmailNFE" xml:space="preserve">
+    <value>E-mail NF-e</value>
+  </data>
+  <data name="lblIEIsento" xml:space="preserve">
+    <value>Isento</value>
+  </data>
+  <data name="lblRamal1" xml:space="preserve">
+    <value>Ramal 1</value>
+  </data>
+  <data name="lblRamal2" xml:space="preserve">
+    <value>Ramal 2</value>
+  </data>
+  <data name="lblTelefone1" xml:space="preserve">
+    <value>Telefone 1</value>
+  </data>
+  <data name="lblUsuarioDigitador" xml:space="preserve">
+    <value>Usuário Digitador</value>
+  </data>
+  <data name="lblContribuinteICMS" xml:space="preserve">
+    <value>Contribuinte ICMS</value>
+  </data>
+  <data name="lblEnderecoBairro" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="lblEnderecoCidade" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="lblSimplesNacional" xml:space="preserve">
+    <value>Simples Nacional</value>
+  </data>
+  <data name="lblEnderecoCobranca" xml:space="preserve">
+    <value>Endere&amp;ccedil;o de cobran&amp;ccedil;a</value>
+  </data>
+  <data name="lblEnderecoFaturamento" xml:space="preserve">
+    <value>Endere&amp;ccedil;o de faturamento</value>
+  </data>
+  <data name="lblCidade" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="lblClienteTipoCredito" xml:space="preserve">
+    <value>Tipo Crédito</value>
+  </data>
+  <data name="lblDataLimiteCredito" xml:space="preserve">
+    <value>Data Limite Crédito</value>
+  </data>
+  <data name="lblLimiteCredito" xml:space="preserve">
+    <value>Crédito</value>
+  </data>
+  <data name="lblNomeMatriz" xml:space="preserve">
+    <value>Nome Matriz</value>
+  </data>
+  <data name="lblPortadorPreferencial" xml:space="preserve">
+    <value>Portador Preferencial</value>
+  </data>
+  <data name="lblDocumento" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="lblDocumentoValido" xml:space="preserve">
+    <value>Documento Utilizado</value>
+  </data>
+  <data name="lblTipoCreditoAutomatico" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="lblTipoCreditoAVista" xml:space="preserve">
+    <value>Pagamento à vista</value>
+  </data>
+  <data name="lblTipoCreditoNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="lblTipoCreditoSoImplantapedido" xml:space="preserve">
+    <value>Só Implanta Pedido</value>
+  </data>
+  <data name="lblTipoCreditoSuspenso" xml:space="preserve">
+    <value>Suspenso</value>
+  </data>
+  <data name="lblCisp" xml:space="preserve">
+    <value>Cisp</value>
+  </data>
+  <data name="lblReceitaFederal" xml:space="preserve">
+    <value>Receita federal</value>
+  </data>
+  <data name="lblRegimeEspecial" xml:space="preserve">
+    <value>Regime especial</value>
+  </data>
+  <data name="lblSintegra" xml:space="preserve">
+    <value>Sintegra</value>
+  </data>
+  <data name="lblSuframa" xml:space="preserve">
+    <value>Suframa</value>
+  </data>
+  <data name="lblCadClienteWfDocumentos" xml:space="preserve">
+    <value>Cadastro de documentos do cliente</value>
+  </data>
+  <data name="lblBoaVista" xml:space="preserve">
+    <value>Boa vista</value>
+  </data>
+  <data name="lblIsento" xml:space="preserve">
+    <value>ISENTO</value>
+  </data>
+  <data name="lblAnexar" xml:space="preserve">
+    <value>Anexar</value>
+  </data>
+  <data name="lblDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="msgInformeArquivoAnexo" xml:space="preserve">
+    <value>Informe o arquivo a ser anexado!</value>
+  </data>
+  <data name="lblPerfilNaoRelacionado" xml:space="preserve">
+    <value>Não relacionado</value>
+  </data>
+  <data name="lblVisualizar" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="msgArquivoNaoEncontrado" xml:space="preserve">
+    <value>Nenhum arquivo encontrado!</value>
+  </data>
+  <data name="msgDefaultWorkFowMessage" xml:space="preserve">
+    <value>Sequência do Workflow</value>
+  </data>
+  <data name="lblBairro" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="lblNaoAprovar" xml:space="preserve">
+    <value>Não Aprovar</value>
+  </data>
+  <data name="lblMotivo" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="msgAnexoExistente" xml:space="preserve">
+    <value>O documento do tipo {0} com já existe para este cliente!</value>
+  </data>
+  <data name="msgAnexoFalhaSave" xml:space="preserve">
+    <value>Falha na tentativa de gravação do arquivo no servidor.</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="msgSequenciaInforme" xml:space="preserve">
+    <value>Informe a sequência do arquivo!</value>
+  </data>
+  <data name="msgClienteCanalVendas" xml:space="preserve">
+    <value>Informe o canal de vendas do cliente!</value>
+  </data>
+  <data name="msgClienteCondicaoPagamento" xml:space="preserve">
+    <value>Informe a condição de pagamento do cliente!</value>
+  </data>
+  <data name="msgClienteDataLimiteCredito" xml:space="preserve">
+    <value>Informe a data do limite de credito do cliente!</value>
+  </data>
+  <data name="msgClienteEmailComercial" xml:space="preserve">
+    <value>Informe o e-mail comercial do cliente!</value>
+  </data>
+  <data name="msgClienteEmailNfe" xml:space="preserve">
+    <value>Informe o e-mail NF-e do cliente!</value>
+  </data>
+  <data name="msgClienteEndereco1" xml:space="preserve">
+    <value>Informe o endereço de faturamento do cliente!</value>
+  </data>
+  <data name="msgClienteEndereco2" xml:space="preserve">
+    <value>Informe o endereço de cobrança do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecobairro1" xml:space="preserve">
+    <value>Informe o Bairro de faturamento do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecobairro2" xml:space="preserve">
+    <value>Informe o Bairro de cobrança do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoCep1" xml:space="preserve">
+    <value>Informe o CEP do endereço de faturamento do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoCep2" xml:space="preserve">
+    <value>Informe o CEP do endereço de cobrança do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoNumero1" xml:space="preserve">
+    <value>Informe o número de endereço do faturamento do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoNumero2" xml:space="preserve">
+    <value>Informe o número de endereço do cobrança do cliente!</value>
+  </data>
+  <data name="msgClienteLimiteCredito" xml:space="preserve">
+    <value>Informe o limite de crédito!</value>
+  </data>
+  <data name="msgClienteMatrizCNPJ" xml:space="preserve">
+    <value>Informe o CNPJ da Matriz do cliente!</value>
+  </data>
+  <data name="msgClienteNomeAbreviado" xml:space="preserve">
+    <value>Informe o nome abreviado do cliente!</value>
+  </data>
+  <data name="msgClienteNomeMatriz" xml:space="preserve">
+    <value>Informe o nome da matriz do cliente!</value>
+  </data>
+  <data name="msgClienteObservacaoFinanceira" xml:space="preserve">
+    <value>Informe a observação financeira do cliente!</value>
+  </data>
+  <data name="msgClientePais1" xml:space="preserve">
+    <value>Informe o Pais de faturamento do cliente!</value>
+  </data>
+  <data name="msgClientePais2" xml:space="preserve">
+    <value>Informe o Pais de cobrança do cliente!</value>
+  </data>
+  <data name="msgClientePortador" xml:space="preserve">
+    <value>Informe o portador do cliente!</value>
+  </data>
+  <data name="msgClientePortadorPreferencial" xml:space="preserve">
+    <value>Informe o portador preferencial do cliente!</value>
+  </data>
+  <data name="msgClienteTelefoneContato1" xml:space="preserve">
+    <value>Informe o telefone 1 do cliente!</value>
+  </data>
+  <data name="msgClienteUf1" xml:space="preserve">
+    <value>Informe a UF de faturamento do cliente!</value>
+  </data>
+  <data name="msgClienteUf2" xml:space="preserve">
+    <value>Informe a UF de cobrança do cliente!</value>
+  </data>
+  <data name="msgConfirmarExclusao" xml:space="preserve">
+    <value>Confirma a exclusão do registro?</value>
+  </data>
+  <data name="msgExclusaoNaoPermitida" xml:space="preserve">
+    <value>Anexo realizado por outro usuário. Exclusão não permitida!</value>
+  </data>
+  <data name="lblEnderecosIguais" xml:space="preserve">
+    <value>Endereço de cobrança é igual ao de faturamento?</value>
+  </data>
+  <data name="msgMatrizCnpjInvalido" xml:space="preserve">
+    <value>CNPJ de matriz não encontrado!</value>
+  </data>
+  <data name="lblNomeComercial" xml:space="preserve">
+    <value>Nome Comercial</value>
+  </data>
+  <data name="lblNomeQuimico" xml:space="preserve">
+    <value>Nome Químico</value>
+  </data>
+  <data name="lblConsultaEstoque" xml:space="preserve">
+    <value>Consulta de Estoque</value>
+  </data>
+  <data name="lblAlocada" xml:space="preserve">
+    <value>Alocada</value>
+  </data>
+  <data name="lblCodigoProduto" xml:space="preserve">
+    <value>Código Produto</value>
+  </data>
+  <data name="lblDeposito" xml:space="preserve">
+    <value>Depósito</value>
+  </data>
+  <data name="lblEstoque" xml:space="preserve">
+    <value>Estoque</value>
+  </data>
+  <data name="lblFabricanteProduto" xml:space="preserve">
+    <value>Fabricante Produto</value>
+  </data>
+  <data name="lblLoja" xml:space="preserve">
+    <value>Loja</value>
+  </data>
+  <data name="lblLote" xml:space="preserve">
+    <value>Lote</value>
+  </data>
+  <data name="lblMSProduto" xml:space="preserve">
+    <value>MS Produto</value>
+  </data>
+  <data name="lblNCMProduto" xml:space="preserve">
+    <value>NCM Produto</value>
+  </data>
+  <data name="lblPedido" xml:space="preserve">
+    <value>Pedido</value>
+  </data>
+  <data name="lblProdutoControlado" xml:space="preserve">
+    <value>Produto Controlado</value>
+  </data>
+  <data name="lblReserva" xml:space="preserve">
+    <value>Reserva</value>
+  </data>
+  <data name="lblSaldo" xml:space="preserve">
+    <value>Saldo</value>
+  </data>
+  <data name="lblTipoArmazenamento" xml:space="preserve">
+    <value>Tipo Armazenamento</value>
+  </data>
+  <data name="lblTipoProduto" xml:space="preserve">
+    <value>TIpo Produto</value>
+  </data>
+  <data name="lblPedidoCliente" xml:space="preserve">
+    <value>Pedido X Cliente</value>
+  </data>
+  <data name="lblPedidoRepresentante" xml:space="preserve">
+    <value>Pedido X Representante</value>
+  </data>
+  <data name="lblBuscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="lblUrgente" xml:space="preserve">
+    <value>Urgente</value>
+  </data>
+  <data name="msgInformeTipoPedido" xml:space="preserve">
+    <value>Informe o tipo do pedido!</value>
+  </data>
+  <data name="lblItemBusca" xml:space="preserve">
+    <value>Pesquisa de itens</value>
+  </data>
+  <data name="lblPedidoItem" xml:space="preserve">
+    <value>Pedido X Item</value>
+  </data>
+  <data name="msgItemExistente" xml:space="preserve">
+    <value>O item {0} já foi informado!</value>
+  </data>
+  <data name="lblQuantidade" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="lblPedidoVenda" xml:space="preserve">
+    <value>Pedido de venda</value>
+  </data>
+  <data name="lblTriangular" xml:space="preserve">
+    <value>triangular</value>
+  </data>
+  <data name="lblUn" xml:space="preserve">
+    <value>UN</value>
+  </data>
+  <data name="msgNenhumItemInformado" xml:space="preserve">
+    <value>Nenhum item informado!</value>
+  </data>
+  <data name="msgRegistrosSalvoSucesso" xml:space="preserve">
+    <value>Dados gravados com sucesso!</value>
+  </data>
+  <data name="lblNaoRefrigerado" xml:space="preserve">
+    <value>Não Refrigerado</value>
+  </data>
+  <data name="lblRefrigerado" xml:space="preserve">
+    <value>Refrigerado</value>
+  </data>
+  <data name="msgInformeDadosTipoEndereco" xml:space="preserve">
+    <value>Informe o tipo do endereço do cliente!</value>
+  </data>
+  <data name="msgClienteTriangularId" xml:space="preserve">
+    <value>Informe o código do cliente triangular!</value>
+  </data>
+  <data name="msgInformeDadosTipoEnderecoTriangular" xml:space="preserve">
+    <value>Informe o tipo de endereço triangular!</value>
+  </data>
+  <data name="lblIntegrar" xml:space="preserve">
+    <value>Integrar</value>
+  </data>
+  <data name="lblReprovar" xml:space="preserve">
+    <value>Reprovar</value>
+  </data>
+  <data name="lblRevisar" xml:space="preserve">
+    <value>Revisar</value>
+  </data>
+  <data name="msgSelecioneItem" xml:space="preserve">
+    <value>Selecione um item!</value>
+  </data>
+  <data name="lblReprovacao" xml:space="preserve">
+    <value>Reprovação</value>
+  </data>
+  <data name="msgPedidoReprovadoFalha" xml:space="preserve">
+    <value>Falha ao tentar reprovar o pedido nº {0:d3}!</value>
+  </data>
+  <data name="msgPedidoReprovadoSucesso" xml:space="preserve">
+    <value>O pedido nº {0:d3} foi reprovado com sucesso!</value>
+  </data>
+  <data name="lblConfirmarIntegracao" xml:space="preserve">
+    <value>Deseja confirmar a integração?</value>
+  </data>
+  <data name="msgPedidoCanceladoFalha" xml:space="preserve">
+    <value>Falha ao tentar cancelar o pedido nº {0:d3}!</value>
+  </data>
+  <data name="msgPedidoCanceladoSucesso" xml:space="preserve">
+    <value>O pedido nº {0:d3} foi cancelado com sucesso!</value>
+  </data>
+  <data name="msgPedidoRevisarFalha" xml:space="preserve">
+    <value>Falha ao tentar enviar o pedido nº {0:d3} para revisão!</value>
+  </data>
+  <data name="msgPedidoRevisarSucesso" xml:space="preserve">
+    <value>O pedido nº {0:d3} foi enviado para revisão  com sucesso!</value>
+  </data>
+  <data name="lblDescricaoMotivo" xml:space="preserve">
+    <value>Descri&amp;ccedil;&amp;atilde;o do motivo da opera&amp;ccedil;&amp;atilde;o</value>
+  </data>
+  <data name="msgMotivoDescricao" xml:space="preserve">
+    <value>Informe a descrição do motivo!</value>
+  </data>
+  <data name="msgMotivoInformeTipo" xml:space="preserve">
+    <value>Informe o tipo do motivo!</value>
+  </data>
+  <data name="lblItemObservacao" xml:space="preserve">
+    <value>Observação do Item</value>
+  </data>
+  <data name="lblData_Pedido" xml:space="preserve">
+    <value>Data Pedido</value>
+  </data>
+  <data name="lblData_Previsao" xml:space="preserve">
+    <value>Data Previsão </value>
+  </data>
+  <data name="lblOrdem" xml:space="preserve">
+    <value>Ordem</value>
+  </data>
+  <data name="lblPedidoObservacao" xml:space="preserve">
+    <value>Observação do Pedido</value>
+  </data>
+  <data name="lblMotivoOperacao" xml:space="preserve">
+    <value>Motivo da operação</value>
+  </data>
+  <data name="lblPedidoClienteTriangular" xml:space="preserve">
+    <value>Pedido X Cliente triangular</value>
+  </data>
+  <data name="lblDataReserva" xml:space="preserve">
+    <value>Data da reserva</value>
+  </data>
+  <data name="lblPeriodoReservaInicio" xml:space="preserve">
+    <value>Reserva de:</value>
+  </data>
+  <data name="lblCreditoDisponivel" xml:space="preserve">
+    <value>Disponível</value>
+  </data>
+  <data name="lblPedidosAberto" xml:space="preserve">
+    <value>Em aberto</value>
+  </data>
+  <data name="msgItemSemSaldo" xml:space="preserve">
+    <value>Os itens: {0} estão sem saldo! &lt;br/&gt;&lt;br/&gt; Este pedido ficará com o status de "Pendente". &lt;br/&gt; Para maiores informações contate um supervisor! </value>
+  </data>
+  <data name="msgPedidoIntegrado" xml:space="preserve">
+    <value>Pedido {0} integrado com sucesso!</value>
+  </data>
+  <data name="msgPedidoSemCreditoVendedor" xml:space="preserve">
+    <value>O Pedido {0} não pôde ser integrado por motivo de crédito excedido! &lt;br/&gt;&lt;br/&gt; Este pedido ficará com o status de "Pendente". &lt;br/&gt; Para maiores informações contate um supervisor!</value>
+  </data>
+  <data name="lblConfirmarIntegracaoPendente" xml:space="preserve">
+    <value>Deseja confirmar a integração mesmo com pendência?</value>
+  </data>
+  <data name="msgPedidoIntegradoFalha" xml:space="preserve">
+    <value>Falha ao tentar integrar o pedido nº{0:d3}!</value>
+  </data>
+  <data name="msgPedidoIntegradoSucesso" xml:space="preserve">
+    <value>Pedido nº{0:d3} integrado com sucesso!</value>
+  </data>
+  <data name="lblDadosClienteInscricaoMunicipal" xml:space="preserve">
+    <value>Incrição Municipal</value>
+  </data>
+  <data name="msgClienteGrupoComercial" xml:space="preserve">
+    <value>Informe o grupo do cliente!</value>
+  </data>
+  <data name="msgClienteInscricaoMunicipal" xml:space="preserve">
+    <value>Informe a inscrição municipal!</value>
+  </data>
+  <data name="lblSelecionar" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="lblConselhoProfissional" xml:space="preserve">
+    <value>Conselho Profissional</value>
+  </data>
+  <data name="lblCrm" xml:space="preserve">
+    <value>CRM</value>
+  </data>
+  <data name="lblDDD" xml:space="preserve">
+    <value>DDD</value>
+  </data>
+  <data name="lblEmail1" xml:space="preserve">
+    <value>E-mail 1</value>
+  </data>
+  <data name="lblEmail2" xml:space="preserve">
+    <value>E-mail 2</value>
+  </data>
+  <data name="lblFax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="lblMedicoEspecialidade1" xml:space="preserve">
+    <value>Especialidade 1</value>
+  </data>
+  <data name="lblMedicoEspecialidade2" xml:space="preserve">
+    <value>Especialidade 2</value>
+  </data>
+  <data name="lblMedicoMedico" xml:space="preserve">
+    <value>Médico</value>
+  </data>
+  <data name="lblMunicipio" xml:space="preserve">
+    <value>Município</value>
+  </data>
+  <data name="lblUfCrm" xml:space="preserve">
+    <value>UF da CRM</value>
+  </data>
+  <data name="msgClienteRepresentante" xml:space="preserve">
+    <value>Informe o representante do cliente!</value>
+  </data>
+  <data name="msgNumeroEmpenho" xml:space="preserve">
+    <value>Informe o número do Empenho/Documento!</value>
+  </data>
+  <data name="lblFormataCurrency" xml:space="preserve">
+    <value>{0:c}</value>
+  </data>
+  <data name="lblEmpenhoValorTotal2" xml:space="preserve">
+    <value>Valor total do empenho: &lt;font color="Blue"&gt;{0:c}&lt;/font&gt;</value>
+  </data>
+  <data name="lblEntrega" xml:space="preserve">
+    <value>Entrega</value>
+  </data>
+  <data name="lblEntregaLocal" xml:space="preserve">
+    <value>Local de Entrega</value>
+  </data>
+  <data name="lblNumeroPregao" xml:space="preserve">
+    <value>Nº Preg&amp;atilde;o/Processo</value>
+  </data>
+  <data name="lblQtdTotalcaixas" xml:space="preserve">
+    <value>Caixas</value>
+  </data>
+  <data name="lblQuantidadeCaixa" xml:space="preserve">
+    <value>Qtd. por Caixa</value>
+  </data>
+  <data name="lblQuantidadeUnitaria" xml:space="preserve">
+    <value>Qtd. Unit&amp;aacute;ria</value>
+  </data>
+  <data name="lblValorCaixa" xml:space="preserve">
+    <value>Valor Caixa</value>
+  </data>
+  <data name="lblValorTotalCaixas" xml:space="preserve">
+    <value>Valor Total Caixas</value>
+  </data>
+  <data name="lblValorUnitario" xml:space="preserve">
+    <value>Valor Unit&amp;aacute;rio</value>
+  </data>
+  <data name="msgEmpenhoInformaPrazoEntrega" xml:space="preserve">
+    <value>Informe o prazo de entrega do empenho!</value>
+  </data>
+  <data name="lblArquivo" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="lblCadEmpenho" xml:space="preserve">
+    <value>Cadastro de Empenho</value>
+  </data>
+  <data name="lblCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="lblEmpenhoCliente" xml:space="preserve">
+    <value>Empenho X Cliente</value>
+  </data>
+  <data name="lblEmpenhoGrade" xml:space="preserve">
+    <value>Grade do empenho</value>
+  </data>
+  <data name="lblEmpenhoitem" xml:space="preserve">
+    <value>Empenho X Item</value>
+  </data>
+  <data name="lblEmpenhoNomeAnexo" xml:space="preserve">
+    <value>Nome do anexo</value>
+  </data>
+  <data name="lblEmpenhoNumero" xml:space="preserve">
+    <value>Empenho/Documento</value>
+  </data>
+  <data name="lblEmpenhoPrazoEntrega" xml:space="preserve">
+    <value>Prazo de entrega</value>
+  </data>
+  <data name="lblLiberar" xml:space="preserve">
+    <value>Liberar</value>
+  </data>
+  <data name="lblRascunho" xml:space="preserve">
+    <value>Rascunho</value>
+  </data>
+  <data name="msgGradeObrigatoria" xml:space="preserve">
+    <value>Nenhum item foi informado na grade!</value>
+  </data>
+  <data name="msgRegistrosSalvoFalha" xml:space="preserve">
+    <value>Falha ao tentar gravar os registros na base de dados!</value>
+  </data>
+  <data name="lblInformeDadosEmpenho" xml:space="preserve">
+    <value>Informe dados do empenho</value>
+  </data>
+  <data name="lblDataNascimento" xml:space="preserve">
+    <value>Data de Nascimento</value>
+  </data>
+  <data name="msgMedicoConsProfissional" xml:space="preserve">
+    <value>Informe o Conselho Profissional!</value>
+  </data>
+  <data name="msgMedicoEspecialidade1" xml:space="preserve">
+    <value>Informe a especialidade 1!</value>
+  </data>
+  <data name="msgMedicoUfCrm" xml:space="preserve">
+    <value>Informe a UF da CRM!</value>
+  </data>
+  <data name="lblConfirmarLiberacaoHeader" xml:space="preserve">
+    <value>Confirmar a liberação?</value>
+  </data>
+  <data name="lblConfirmarLiberacaoMessage" xml:space="preserve">
+    <value>Deseja confirmar a liberação do empenho?</value>
+  </data>
+  <data name="lblEmpenhoStatusCadAberto" xml:space="preserve">
+    <value>Cadastro em Andamento</value>
+  </data>
+  <data name="lblEmpenhoStatusCadConcluido" xml:space="preserve">
+    <value>Cadastro Concluído/Liberado</value>
+  </data>
+  <data name="lblEmpenhoStatusEmAberto" xml:space="preserve">
+    <value>Em Aberto</value>
+  </data>
+  <data name="lblEmpenhoStatusFinalizado" xml:space="preserve">
+    <value>Finalizado</value>
+  </data>
+  <data name="lblCrf" xml:space="preserve">
+    <value>CRF</value>
+  </data>
+  <data name="lblCrmv" xml:space="preserve">
+    <value>CRMV</value>
+  </data>
+  <data name="lblCro" xml:space="preserve">
+    <value>CRO</value>
+  </data>
+  <data name="lblUfCrf" xml:space="preserve">
+    <value>UF da CRF</value>
+  </data>
+  <data name="lblUfCrmv" xml:space="preserve">
+    <value>UF da CRMV</value>
+  </data>
+  <data name="lblUfCro" xml:space="preserve">
+    <value>UF da CRO</value>
+  </data>
+  <data name="msgCepInexistente" xml:space="preserve">
+    <value>CEP Inexistente!</value>
+  </data>
+  <data name="rfvMedicoBairro" xml:space="preserve">
+    <value>Informe o bairro do médico</value>
+  </data>
+  <data name="rfvMedicoCEPCom" xml:space="preserve">
+    <value>Informe o CEP do endereço do médico</value>
+  </data>
+  <data name="rfvMedicoCRF" xml:space="preserve">
+    <value>Informe o CRF do médico!</value>
+  </data>
+  <data name="rfvMedicoCRM" xml:space="preserve">
+    <value>Informe o CRM do Médico!</value>
+  </data>
+  <data name="rfvMedicoCRMV" xml:space="preserve">
+    <value>Informe o CRMV do Médico!</value>
+  </data>
+  <data name="rfvMedicoCRO" xml:space="preserve">
+    <value>Informe o CRO do médico</value>
+  </data>
+  <data name="rfvMedicoDDD1" xml:space="preserve">
+    <value>Informe o DDD 1!</value>
+  </data>
+  <data name="rfvMedicoEmail1" xml:space="preserve">
+    <value>Informe o e-mail 1!</value>
+  </data>
+  <data name="rfvMedicoEnderecoCom" xml:space="preserve">
+    <value>Informe o endereço do médico</value>
+  </data>
+  <data name="rfvMedicoMunicCom" xml:space="preserve">
+    <value>Informe o município do médico</value>
+  </data>
+  <data name="rfvMedicoRG" xml:space="preserve">
+    <value>Informe o RG do médico!</value>
+  </data>
+  <data name="rfvMedicoTelcom1" xml:space="preserve">
+    <value>Informe o Telefone 1!</value>
+  </data>
+  <data name="lblEmpenhoStatusCancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="rfvMedicoDtNascimento" xml:space="preserve">
+    <value>Informe a data de nascimento do médico!</value>
+  </data>
+  <data name="lblEmpenhoPedidoStatusAlocadoTotal" xml:space="preserve">
+    <value>Alocado total no EMS</value>
+  </data>
+  <data name="lblEmpenhoPedidoStatusFaturado" xml:space="preserve">
+    <value>Faturado</value>
+  </data>
+  <data name="lblEmpenhoPedidoStatusLiberado" xml:space="preserve">
+    <value>Liberado para faturamento</value>
+  </data>
+  <data name="lblClienteEnderecoObs1" xml:space="preserve">
+    <value>Observação de endereço</value>
+  </data>
+  <data name="msgClienteCategoria" xml:space="preserve">
+    <value>Informe a categoria do cliente!</value>
+  </data>
+  <data name="msgClienteMercado" xml:space="preserve">
+    <value>Informe o mercado do cliente!</value>
+  </data>
+  <data name="msgClienteRG" xml:space="preserve">
+    <value>Informe o RG do cliente!</value>
+  </data>
+  <data name="msgClienteRGDataEmissao" xml:space="preserve">
+    <value>Informe o a data de emissão do RG do cliente!</value>
+  </data>
+  <data name="msgClienteRGOrgao" xml:space="preserve">
+    <value>Informe o orgão expeditor do RG do cliente!</value>
+  </data>
+  <data name="lblRazaoSocialNome" xml:space="preserve">
+    <value>Razão Social / Nome</value>
+  </data>
+  <data name="lblReceitaPadrao" xml:space="preserve">
+    <value>Receita Padrão</value>
+  </data>
+  <data name="lblAmbos" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="msgMatrizCnpjValido" xml:space="preserve">
+    <value>CNPJ Válido!</value>
+  </data>
+  <data name="lblEmpenhoQtdItens" xml:space="preserve">
+    <value>Qtd. de itens no Empenho: &lt;font color="Blue"&gt;{0:###,###,###,#00.##} &lt;/font&gt;</value>
+  </data>
+  <data name="lblEmpenhoQtdItensRestante" xml:space="preserve">
+    <value>Qtd. de itens restantes no empenho: &lt;font color="Blue"&gt;{0:###,###,###,#00.##}&lt;/font&gt;</value>
+  </data>
+  <data name="lblValorTotalEmpenho" xml:space="preserve">
+    <value>Valor Total do Empenho: &lt;font color="Blue"&gt;{0:c}&lt;/font&gt;</value>
+  </data>
+  <data name="lblValorTotalPedido" xml:space="preserve">
+    <value>Valor Total do Pedido: &lt;font color="Blue"&gt;{0:c}&lt;/font&gt;</value>
+  </data>
+  <data name="lblEmpenhoNumeroPesquisa" xml:space="preserve">
+    <value>Empenho/Documento X Pesquisa</value>
+  </data>
+  <data name="lblCadEmpenhoPedido" xml:space="preserve">
+    <value>Pedido do Empenho</value>
+  </data>
+  <data name="lblEmpenhoPedidoEmissao" xml:space="preserve">
+    <value>Emiss&amp;atilde;o de pedido de empenho</value>
+  </data>
+  <data name="lblConfirmarLiberacaoPedidoMessage" xml:space="preserve">
+    <value>Confirma a liberação do pedido do empenho?</value>
+  </data>
+  <data name="lblEmpenho" xml:space="preserve">
+    <value>Empenho</value>
+  </data>
+  <data name="lblEmpenhoPedido" xml:space="preserve">
+    <value>Pedido de Empenho</value>
+  </data>
+  <data name="lblAtendente" xml:space="preserve">
+    <value>Atendente</value>
+  </data>
+  <data name="lblNotaFiscal" xml:space="preserve">
+    <value>Nota Fiscal</value>
+  </data>
+  <data name="lblEmpenhoPedidoStatusDivergenciaLocal" xml:space="preserve">
+    <value>Local entrega alterado</value>
+  </data>
+  <data name="lblEmpenhoPedidoStatusDivergenciaQtd" xml:space="preserve">
+    <value>Quantidade alterada</value>
+  </data>
+  <data name="lblEmpenhoPedidoStatusDivergenciaValor" xml:space="preserve">
+    <value>Valor alterado</value>
+  </data>
+  <data name="Divergencia" xml:space="preserve">
+    <value>Produto com divergência</value>
+  </data>
+  <data name="msgProgramacaoEntregaDataExistente" xml:space="preserve">
+    <value>A data prevista de entrega já foi informada pra este item da grade!</value>
+  </data>
+  <data name="msgProgramacaoEntregaVlrUltrapassaSaldo" xml:space="preserve">
+    <value>O valor informado ultrapassa o saldo do item da grade!</value>
+  </data>
+  <data name="msgProgramacaoEntregaDataPrevista" xml:space="preserve">
+    <value>Informa a previsão de entrega!</value>
+  </data>
+  <data name="lblEntregaPrevisao" xml:space="preserve">
+    <value>Previsão de entrega</value>
+  </data>
+  <data name="lblProgramacaoEntrega" xml:space="preserve">
+    <value>Programação de entrega</value>
+  </data>
+  <data name="lblAdicionar" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="lblProgramacaoEntregaGrade" xml:space="preserve">
+    <value>Programação de entrega X Grade</value>
+  </data>
+  <data name="msgProgramacaoDataInferior" xml:space="preserve">
+    <value>A data informada não deve ser inferior a data atual!</value>
+  </data>
+  <data name="msgProgramacaoDataSuperior" xml:space="preserve">
+    <value>A data informada não pode ser superior ao prazo de entrega do empenho!</value>
+  </data>
+  <data name="lblProgramacaoEntregaTotalItens" xml:space="preserve">
+    <value>Itens programados:&lt;font color="Blue"&gt; {0:###,###,###,000.##} &lt;/font&gt;</value>
+  </data>
+  <data name="msgProgramacaoEntregaQuantidadeInvalida" xml:space="preserve">
+    <value>A quantidade deve ser maior que zero!</value>
+  </data>
+  <data name="lblDataPrevista" xml:space="preserve">
+    <value>Data Prevista</value>
+  </data>
+  <data name="lblInformeQuantidade" xml:space="preserve">
+    <value>Informe a quantidade prevista!</value>
+  </data>
+  <data name="lblAnexarReceita" xml:space="preserve">
+    <value>Anexar Receita</value>
+  </data>
+  <data name="lblFrete" xml:space="preserve">
+    <value>Frete</value>
+  </data>
+  <data name="lblHistoricoKs" xml:space="preserve">
+    <value>Histórico KS</value>
+  </data>
+  <data name="lblHistoricoProtheus" xml:space="preserve">
+    <value>Histórico Protheus</value>
+  </data>
+  <data name="lblMedicoPrescritor" xml:space="preserve">
+    <value>Médico Prescritor</value>
+  </data>
+  <data name="lblQuantidadeTotal" xml:space="preserve">
+    <value>Quantidade Total</value>
+  </data>
+  <data name="lblTotalPedido" xml:space="preserve">
+    <value>TOTAL PEDIDO</value>
+  </data>
+  <data name="lblTotalValor" xml:space="preserve">
+    <value>Valor Total</value>
+  </data>
+  <data name="lblVendaDireta" xml:space="preserve">
+    <value>Venda Direta</value>
+  </data>
+  <data name="lblFormatoDecimalToInt" xml:space="preserve">
+    <value>{0:###,###,###,000.##}</value>
+  </data>
+  <data name="msgSemEstoqueParaItem" xml:space="preserve">
+    <value>Não existe estoque para este item!</value>
+  </data>
+  <data name="lblAnexoReceita" xml:space="preserve">
+    <value>Anexo de Receita</value>
+  </data>
+  <data name="lblSelecioneArquivo" xml:space="preserve">
+    <value>Selecione um arquivo</value>
+  </data>
+  <data name="msgAcessoNaoPermitido" xml:space="preserve">
+    <value>Você não possúi permissão para acessar está página!</value>
+  </data>
+  <data name="msgInformeAnexoReceita" xml:space="preserve">
+    <value>Você deve anexar a receita!</value>
+  </data>
+  <data name="ToolTipValorMinMax" xml:space="preserve">
+    <value>Valor mínimo: {0:###,###,###,##0.00} - Valor máximo: {1:###,###,###,##0.00}</value>
+  </data>
+  <data name="msgClienteEnderecoCidade1" xml:space="preserve">
+    <value>Informe a Cidade de faturamento do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoCidade2" xml:space="preserve">
+    <value>Informe a cidade de de cobrança do cliente!</value>
+  </data>
+  <data name="lblEnderecoCliente" xml:space="preserve">
+    <value>Endere&amp;ccedil;o X Cliente</value>
+  </data>
+  <data name="lblEnderecoClienteHeader" xml:space="preserve">
+    <value>Endere&amp;ccedil;o do cliente</value>
+  </data>
+  <data name="lblTituloGridEstoqueConsolidado" xml:space="preserve">
+    <value>COMPOSIÇÃO ESTOQUE CONSOLIDADO</value>
+  </data>
+  <data name="lblTituloGridEstoqueDetalhado" xml:space="preserve">
+    <value>COMPOSIÇÃO ESTOQUE DETALHADO</value>
+  </data>
+  <data name="lblTituloGridEstoqueFuturo" xml:space="preserve">
+    <value>PREVISÃO DE REPOSIÇÃO DE ESTOQUE</value>
+  </data>
+  <data name="msgDefault" xml:space="preserve">
+    <value>ENTRE EM CONTATO COM O ADMINISTRADOR DO SISTEMA!</value>
+  </data>
+  <data name="lblInfoAtendentes" xml:space="preserve">
+    <value>Informações sobre o cliente</value>
+  </data>
+  <data name="lblInformacoesGerais" xml:space="preserve">
+    <value>Informações Gerais</value>
+  </data>
+  <data name="msgCnpjInvalido" xml:space="preserve">
+    <value>CNPJ Inválido!</value>
+  </data>
+  <data name="msgCpfInvalido" xml:space="preserve">
+    <value>CPF Inválido!</value>
+  </data>
+  <data name="msgItemSemPrecoTabela" xml:space="preserve">
+    <value>Não foram encontrados valores na tabela de preços para este item!</value>
+  </data>
+  <data name="msgTabelaPrecoAlteracao" xml:space="preserve">
+    <value>A alteração {0}, enquadrará os itens contidos neste pedido em outra faixa da tabela de preços. &lt;br/&gt; Deseja realmente continuar com esta operação?</value>
+  </data>
+  <data name="lblTransportadora" xml:space="preserve">
+    <value>Transportadora</value>
+  </data>
+  <data name="lblAtencao" xml:space="preserve">
+    <value>Atenção!</value>
+  </data>
+  <data name="lblArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="msgClienteEndereco" xml:space="preserve">
+    <value>Informe o endereço do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoBairro" xml:space="preserve">
+    <value>Informe o bairro do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoCidade" xml:space="preserve">
+    <value>Informe a cidade do cliente!</value>
+  </data>
+  <data name="msgClienteEnderecoNumero" xml:space="preserve">
+    <value>Informe o número do endereço do cliente!</value>
+  </data>
+  <data name="msgClientePais" xml:space="preserve">
+    <value>Informe o país do cliente!</value>
+  </data>
+  <data name="msgClienteTipoEndereco" xml:space="preserve">
+    <value>Informe o tipo de endereço do cliente!</value>
+  </data>
+  <data name="msgClienteUf" xml:space="preserve">
+    <value>Informe a UF do cliente!</value>
+  </data>
+  <data name="lblClienteEmail2" xml:space="preserve">
+    <value>E-mail 2</value>
+  </data>
+  <data name="msgErroTipoEnderecoExistente" xml:space="preserve">
+    <value>Já existe um endereço com este tipo digitado!</value>
+  </data>
+  <data name="msgClienteIdAlterado" xml:space="preserve">
+    <value>Certifique-se de que o código do cliente {0} não tenha sido alterado!</value>
+  </data>
+  <data name="lblDataEntrega" xml:space="preserve">
+    <value>Data de entrega</value>
+  </data>
+  <data name="lblTipoPessoaEstrangeira" xml:space="preserve">
+    <value>Pessoa Estrangeira</value>
+  </data>
+  <data name="lblTipoCliente" xml:space="preserve">
+    <value>Tipo do Cliente</value>
+  </data>
+  <data name="lblOutros" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="lblPeriodoHorarioComercial" xml:space="preserve">
+    <value>Horário comercial</value>
+  </data>
+  <data name="lblPeriodoManha" xml:space="preserve">
+    <value>Manhã</value>
+  </data>
+  <data name="lblPeriodoTarde" xml:space="preserve">
+    <value>Tarde</value>
+  </data>
+  <data name="lblPeriodoEntrega" xml:space="preserve">
+    <value>Per&amp;iacute;odo</value>
+  </data>
+  <data name="lblDataCadastroAlteracao" xml:space="preserve">
+    <value>Data de alteração</value>
+  </data>
+  <data name="lblUsuarioAlteraCadastroNome" xml:space="preserve">
+    <value>Usuário alteração</value>
+  </data>
+  <data name="lblUsuarioCadastraNome" xml:space="preserve">
+    <value>Usuário cadastro</value>
+  </data>
+  <data name="lblObservacoesNotaFiscal" xml:space="preserve">
+    <value>Observações da nota fiscal</value>
+  </data>
+  <data name="lblObservacoesPedido" xml:space="preserve">
+    <value>Observações do pedido</value>
+  </data>
+  <data name="msgClienteSalvoSucesso" xml:space="preserve">
+    <value>Cliente salvo com sucesso!</value>
+  </data>
+  <data name="lblPeriodoInclusaoPedido" xml:space="preserve">
+    <value>Pedido de:</value>
+  </data>
+  <data name="lblAnexarReceitas" xml:space="preserve">
+    <value>Anexar Receitas</value>
+  </data>
+  <data name="lblFinalizaProcesso" xml:space="preserve">
+    <value>Finalizar processo?</value>
+  </data>
+  <data name="msgClienteMedicoPrescritor" xml:space="preserve">
+    <value>Informe o médico prescritor do cliente!</value>
+  </data>
+  <data name="msgClienteTransportadora" xml:space="preserve">
+    <value>Informe a transportadora do cliente!</value>
+  </data>
+  <data name="msgDadosSalvoSucessoFinalizado" xml:space="preserve">
+    <value>Sr.(a). Usuário(a), você marcou a finalização do seu procedimento.
+Após salvar não poderá mais efetuar alterações. &lt;br/&gt;
+Confirma gravação?</value>
+  </data>
+  <data name="msgDadosSalvoSucessoNaoFinalizado" xml:space="preserve">
+    <value>Sr.(a). Usuário(a), como você não marcou a finalização do seu procedimento, ainda poderá fazer qualquer alteração e pedido continua sob sua responsabilidade.</value>
+  </data>
+  <data name="msgDadosSalvoFinalizadoProcesso" xml:space="preserve">
+    <value>Sr.(a). Usuário(a), você finalizou do seu procedimento para este pedido.</value>
+  </data>
+  <data name="lblRne" xml:space="preserve">
+    <value>RNE</value>
+  </data>
+  <data name="msgClienteRne" xml:space="preserve">
+    <value>Informe o RNE do cliente!</value>
+  </data>
+  <data name="lblTipoPessoaEstrangeiraValue" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lblBackOfficeConferencia" xml:space="preserve">
+    <value>BackOffice Conferência</value>
+  </data>
+  <data name="lblBackOfficeConferenciaInicial" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lblBackOfficeFinanceiro" xml:space="preserve">
+    <value>BackOffice Financeiro</value>
+  </data>
+  <data name="lblBackOfficeFinanceiroInicial" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lblBackOfficeReceita" xml:space="preserve">
+    <value>BackOffice Receita</value>
+  </data>
+  <data name="lblBackOfficeReceitaInicial" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="msgClienteCnpjExistente" xml:space="preserve">
+    <value>Já existe o cliente {0} cadastrado com o CNPJ {1} na base de dados!</value>
+  </data>
+  <data name="msgClienteCpfExistente" xml:space="preserve">
+    <value>Já existe um cliente cadastrado com este CPF na base de dados!</value>
+  </data>
+  <data name="msgMedicoCrmExistente" xml:space="preserve">
+    <value>Já existe um médico cadastrado na base de dados com estes {0} e {1} informados!</value>
+  </data>
+  <data name="lblEstabelecimentoUnidadeNegocio" xml:space="preserve">
+    <value>Loja X Unidade de negócios</value>
+  </data>
+  <data name="lblRemover" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="lblRemoverTodos" xml:space="preserve">
+    <value>Remover Todos</value>
+  </data>
+  <data name="msgAnexoNomeArquivoExistente" xml:space="preserve">
+    <value>Já existe um arquivo com o nome "{0}" anexado para este cliente!</value>
+  </data>
+  <data name="msgClienteTipoPedido" xml:space="preserve">
+    <value>Informe o tipo do pedido!</value>
+  </data>
+  <data name="lblAdicionarTodos" xml:space="preserve">
+    <value>Adicionar Todos</value>
+  </data>
+  <data name="msgEstabelecimentosNaoDesvinculados" xml:space="preserve">
+    <value>As lojas {0} da unidade de negócios {1}, não foram excluídos por existirem vínculos com pedidos emitidos!&lt;br/&gt;</value>
+  </data>
+  <data name="lblLinkCartaFalta" xml:space="preserve">
+    <value>Carta Falta</value>
+  </data>
+  <data name="lblCondicaoPagamentoCliente" xml:space="preserve">
+    <value>Condição de pagamento X Cliente</value>
+  </data>
+  <data name="lblSac" xml:space="preserve">
+    <value>Sac</value>
+  </data>
+  <data name="lblDataPrescricao" xml:space="preserve">
+    <value>Data prescrição</value>
+  </data>
+  <data name="lblDataRetiradaReceita" xml:space="preserve">
+    <value>Data retirada</value>
+  </data>
+  <data name="lblDosagemPorDia" xml:space="preserve">
+    <value>Dosagem por dia</value>
+  </data>
+  <data name="lblNumeroReceita" xml:space="preserve">
+    <value>Número receita</value>
+  </data>
+  <data name="lblPeriodoComercial" xml:space="preserve">
+    <value>Horário comercial</value>
+  </data>
+  <data name="lblPeriodoRetiradaReceira" xml:space="preserve">
+    <value>Período retirada</value>
+  </data>
+  <data name="lblQuantidadePrescrita" xml:space="preserve">
+    <value>Quantidade prescrita</value>
+  </data>
+  <data name="lblPrazo24" xml:space="preserve">
+    <value>24 hrs</value>
+  </data>
+  <data name="lblPrazo48" xml:space="preserve">
+    <value>48 hrs</value>
+  </data>
+  <data name="lblPrazo72" xml:space="preserve">
+    <value>72 hrs</value>
+  </data>
+  <data name="lblPrazoEntrega" xml:space="preserve">
+    <value>Prazo</value>
+  </data>
+  <data name="lblNomePaciente" xml:space="preserve">
+    <value>Nome Paciente</value>
+  </data>
+  <data name="lblNomeResponsavel" xml:space="preserve">
+    <value>Nome responsável</value>
+  </data>
+  <data name="lblPosologia" xml:space="preserve">
+    <value>Posologia</value>
+  </data>
+  <data name="lblDadosContato" xml:space="preserve">
+    <value>Dados do contato</value>
+  </data>
+  <data name="msgClienteInformeContato" xml:space="preserve">
+    <value>Informe pelo menos 1 (um) contato!</value>
+  </data>
+  <data name="msgClienteInformeEndereco" xml:space="preserve">
+    <value>Informe pelo menos 1 (um) endereço!</value>
+  </data>
+  <data name="msgClienteInformeMedicoValido" xml:space="preserve">
+    <value>Infome um médico existente!</value>
+  </data>
+  <data name="msgClienteInformeTipoPedido" xml:space="preserve">
+    <value>Informe pelo menos 1 (um) tipo de pedido!</value>
+  </data>
+  <data name="lblEmissor" xml:space="preserve">
+    <value>Emissor</value>
+  </data>
+  <data name="lblDataEmbarque" xml:space="preserve">
+    <value>Data embarque</value>
+  </data>
+  <data name="lblEmbarque" xml:space="preserve">
+    <value>Embarque</value>
+  </data>
+  <data name="lblAgenciaSigla" xml:space="preserve">
+    <value>Ag.</value>
+  </data>
+  <data name="lblBanco" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="lblContaCorrente" xml:space="preserve">
+    <value>C/C</value>
+  </data>
+  <data name="lblData" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="lblCondicaoPagamentoDeposito" xml:space="preserve">
+    <value>Condição de pagamento X Depósito</value>
+  </data>
+  <data name="msgInformeDepositoAgencia" xml:space="preserve">
+    <value>Informe o número da agência!</value>
+  </data>
+  <data name="msgInformeDepositoBanco" xml:space="preserve">
+    <value>Informe o número do banco!</value>
+  </data>
+  <data name="msgInformeDepositoContaCorrente" xml:space="preserve">
+    <value>Informe o número da conta corrente!</value>
+  </data>
+  <data name="msgInformeDepositoValorDeposito" xml:space="preserve">
+    <value>Informe o valor do depósito!</value>
+  </data>
+  <data name="msgDataJaInformada" xml:space="preserve">
+    <value>Data já informada!</value>
+  </data>
+  <data name="msgDepositoUltrapassaValor" xml:space="preserve">
+    <value>Valor dos depósitos ultrapassa o valor total do pedido!</value>
+  </data>
+  <data name="msgDepositoMenorValor" xml:space="preserve">
+    <value>Valor dos depósitos é menor que o valor total do pedido!</value>
+  </data>
+  <data name="lblDepositoPadrao" xml:space="preserve">
+    <value>Número padrão de parcelas?</value>
+  </data>
+  <data name="msgDepositoQtdPadraoValorInvalido" xml:space="preserve">
+    <value>O número de parcelas padrão é 03! A soma dos valores informados não atinge o valor total do pedido! Verifique os valores antes de continuar esta operação!</value>
+  </data>
+  <data name="msgInformeData" xml:space="preserve">
+    <value>Informe a data!</value>
+  </data>
+  <data name="lblSaldoEstoque" xml:space="preserve">
+    <value>Saldo em estoque</value>
+  </data>
+  <data name="lblExisteContatoPrincipal" xml:space="preserve">
+    <value>Já existe um contato principal na lista de contatos para este cliente!</value>
+  </data>
+  <data name="lblCartaoAutorizacao" xml:space="preserve">
+    <value>Autorização</value>
+  </data>
+  <data name="lblCartaoBandeira" xml:space="preserve">
+    <value>Bandeira</value>
+  </data>
+  <data name="lblCartaoComprovante" xml:space="preserve">
+    <value>Comprovante de venda</value>
+  </data>
+  <data name="lblCartaoCredito" xml:space="preserve">
+    <value>Cartão</value>
+  </data>
+  <data name="lblCartaoFormaPgto" xml:space="preserve">
+    <value>Forma de pagamento</value>
+  </data>
+  <data name="lblCartaoTipoMaquina" xml:space="preserve">
+    <value>Tipo/Máquina</value>
+  </data>
+  <data name="lblDadosDeposito" xml:space="preserve">
+    <value>Dados do depósito</value>
+  </data>
+  <data name="lblCartaoMensagem" xml:space="preserve">
+    <value>Digite os dados do cartão sem uso da pontuação</value>
+  </data>
+  <data name="msgInformeNumeroAutorizacao" xml:space="preserve">
+    <value>Informe o número da autorização!</value>
+  </data>
+  <data name="msgInformeNumeroCartao" xml:space="preserve">
+    <value>Informe o número do cartão!</value>
+  </data>
+  <data name="msgInformeNumeroComprovante" xml:space="preserve">
+    <value>Informe o número do comprovante!</value>
+  </data>
+  <data name="msgCartaoInformeBandeira" xml:space="preserve">
+    <value>Informe a bandeira!</value>
+  </data>
+  <data name="msgCartaoInformeFormaPgto" xml:space="preserve">
+    <value>Informe a forma de pagamento!</value>
+  </data>
+  <data name="msgCartaoInformeTipoMaquina" xml:space="preserve">
+    <value>Informe o tipo da máquina!</value>
+  </data>
+  <data name="lblCondicaoPagamentoCartao" xml:space="preserve">
+    <value>Condição de pagamento X Cartão</value>
+  </data>
+  <data name="lblCondicaoEspecial" xml:space="preserve">
+    <value>CONDIÇÃO ESPECIAL</value>
+  </data>
+  <data name="lblCondicaoPagamentoEspecial" xml:space="preserve">
+    <value>Condição de pagamento - Especial</value>
+  </data>
+  <data name="msgErroTipoPedidoExistente" xml:space="preserve">
+    <value>Já existe este tipo selecionado para este cliente!</value>
+  </data>
+  <data name="lblDivergenciaCondicaoDeposito" xml:space="preserve">
+    <value>Condição de pagamento depósito.</value>
+  </data>
+  <data name="lblDivergenciaCondicaoEspecial" xml:space="preserve">
+    <value>Condição de pagamento especial.</value>
+  </data>
+  <data name="lblDivergenciaFrete" xml:space="preserve">
+    <value>Divergência no valor do frete.</value>
+  </data>
+  <data name="lblDivergenciaLimiteCredito" xml:space="preserve">
+    <value>Limite de crédito indisponível.</value>
+  </data>
+  <data name="lblDivergenciaTabelaPreco" xml:space="preserve">
+    <value>Divergência nos valores da tabela de preços.</value>
+  </data>
+  <data name="lblPadrao" xml:space="preserve">
+    <value>padrão</value>
+  </data>
+  <data name="lblValorFretePadrao" xml:space="preserve">
+    <value>Frete calculado: {0:###,###,###,##0.00}</value>
+  </data>
+  <data name="lblPeriodoEmergencial" xml:space="preserve">
+    <value>Emergencial</value>
+  </data>
+  <data name="lblPrazo96" xml:space="preserve">
+    <value>96 hrs</value>
+  </data>
+  <data name="msgCepInvalido" xml:space="preserve">
+    <value>CEP Inválido!</value>
+  </data>
+  <data name="lblNaoExisteContatoPrincipal" xml:space="preserve">
+    <value>Não existe um contato principal na lista de contatos para este cliente!</value>
+  </data>
+  <data name="msgItemNaoInformadoQuantidade" xml:space="preserve">
+    <value>A quantidade do item {0:d5} não foi informada!</value>
+  </data>
+  <data name="msgItemNaoInformadoValor" xml:space="preserve">
+    <value>O valor do item {0:d5} não foi informado!</value>
+  </data>
+  <data name="lblCadContratoLicitacao" xml:space="preserve">
+    <value>Cadastro de Contrato de Licitações</value>
+  </data>
+  <data name="AnaliseCredito" xml:space="preserve">
+    <value>Análise de crédito</value>
+  </data>
+  <data name="BackOffice" xml:space="preserve">
+    <value>BackOffice</value>
+  </data>
+  <data name="Cancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="Faturado" xml:space="preserve">
+    <value>Faturado</value>
+  </data>
+  <data name="Implantacao" xml:space="preserve">
+    <value>Implantação</value>
+  </data>
+  <data name="Integrado" xml:space="preserve">
+    <value>Integrado</value>
+  </data>
+  <data name="Reprovado" xml:space="preserve">
+    <value>Reprovado</value>
+  </data>
+  <data name="Reserva" xml:space="preserve">
+    <value>Reserva</value>
+  </data>
+  <data name="Supervisor" xml:space="preserve">
+    <value>Supervisor</value>
+  </data>
+  <data name="Pendente" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="aprovacao" xml:space="preserve">
+    <value>Aprovado</value>
+  </data>
+  <data name="cancela" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="lblMotivoSupervisao" xml:space="preserve">
+    <value>Motivo supervisão: {0}</value>
+  </data>
+  <data name="negado" xml:space="preserve">
+    <value>Negado</value>
+  </data>
+  <data name="revisao" xml:space="preserve">
+    <value>Revisão</value>
+  </data>
+  <data name="lblMotivoUsrFormatado" xml:space="preserve">
+    <value>{0} por: </value>
+  </data>
+  <data name="msgClienteJaInformado" xml:space="preserve">
+    <value>Cliente já informado!</value>
+  </data>
+  <data name="lblContratoData" xml:space="preserve">
+    <value>Data do contrato</value>
+  </data>
+  <data name="lblContratoDocEfetivo" xml:space="preserve">
+    <value>Doc. efetivo entrega</value>
+  </data>
+  <data name="lblContratoValidadeExigida" xml:space="preserve">
+    <value>Validade exigida</value>
+  </data>
+  <data name="lblDadosBancarios" xml:space="preserve">
+    <value>Dados bancários</value>
+  </data>
+  <data name="lblEntregaPrazo" xml:space="preserve">
+    <value>Prazo de entrega</value>
+  </data>
+  <data name="lblLicitacao" xml:space="preserve">
+    <value>Contrato/Licitação</value>
+  </data>
+  <data name="lblModalidade" xml:space="preserve">
+    <value>Modalidade</value>
+  </data>
+  <data name="lblProcesso" xml:space="preserve">
+    <value>Processo</value>
+  </data>
+  <data name="lblVigencia" xml:space="preserve">
+    <value>Vigência</value>
+  </data>
+  <data name="lblNumeroPedido" xml:space="preserve">
+    <value>Nº Pedido</value>
+  </data>
+  <data name="msgClienteSuspenso" xml:space="preserve">
+    <value>Este cliente está suspenso e não é permitido a implantação de pedido nessas condições!</value>
+  </data>
+  <data name="naointegrado" xml:space="preserve">
+    <value>Não integrado</value>
+  </data>
+  <data name="Financeiro" xml:space="preserve">
+    <value>Financeiro</value>
+  </data>
+  <data name="lblMudar" xml:space="preserve">
+    <value>Mudar</value>
+  </data>
+  <data name="lblMudarCondicaoPgtoEspecial" xml:space="preserve">
+    <value>Mudar forma de pagamento</value>
+  </data>
+  <data name="lblClienteContrato" xml:space="preserve">
+    <value>Contrato X Cliente</value>
+  </data>
+  <data name="lblDadosReceita" xml:space="preserve">
+    <value>Dados Receita</value>
+  </data>
+  <data name="lblDadosReceitaObrigatorio" xml:space="preserve">
+    <value>Os dados da receita são obrigatórios! </value>
+  </data>
+  <data name="lblContratoEnderecos" xml:space="preserve">
+    <value>Contrato X Endereços</value>
+  </data>
+  <data name="lblIncluir" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="msgUsuarioIdExistente" xml:space="preserve">
+    <value>Já existe um usuário com este código na base de dados!</value>
+  </data>
+  <data name="msgUsuarioLoginExistente" xml:space="preserve">
+    <value>Já existe um usuário com este login na base de dados!</value>
+  </data>
+  <data name="msgInformeUnicoItem" xml:space="preserve">
+    <value>Informe 1(um) cliente por vez, para executar esta operação!</value>
+  </data>
+  <data name="lblEnderecosVincular" xml:space="preserve">
+    <value>Vincular endereços</value>
+  </data>
+  <data name="msgClienteNaoSelecionado" xml:space="preserve">
+    <value>Verifique se o cliente foi selecionado!</value>
+  </data>
+  <data name="msgClienteSelecionadoDiferente" xml:space="preserve">
+    <value>Cliente selecionado é diferente do que foi selecionado anteriormente!</value>
+  </data>
+  <data name="lblConfirmacao" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="lblConfirmarMudaStatusNaoImplantado" xml:space="preserve">
+    <value>Deseja realmente mudar status? Com essa alteração esse cliente ficará com o status de implantado e estará novamente disponivel para integração!</value>
+  </data>
+  <data name="lblNaoImplantado" xml:space="preserve">
+    <value>NÃO IMPLANTADO</value>
+  </data>
+  <data name="lblContratoItens" xml:space="preserve">
+    <value>Contrato X Itens</value>
+  </data>
+  <data name="lblDesconto" xml:space="preserve">
+    <value>Desconto (%)</value>
+  </data>
+  <data name="lblPrecoFabrica" xml:space="preserve">
+    <value>Preço fábrica</value>
+  </data>
+  <data name="lblQtdFaturada" xml:space="preserve">
+    <value>Faturados</value>
+  </data>
+  <data name="lblValorNegociado" xml:space="preserve">
+    <value>Valor negociado</value>
+  </data>
+  <data name="msgCondicaoPagtoCartaoAmex" xml:space="preserve">
+    <value>O campo "Cartão" deve ter 15 caracteres!</value>
+  </data>
+  <data name="msgCondicaoPagtoCartaoAutorizacaoRange" xml:space="preserve">
+    <value>O campo "Autorização" deve ter de 1 a 6 caracteres!</value>
+  </data>
+  <data name="msgCondicaoPagtoCartaoComprovanteRange" xml:space="preserve">
+    <value>O campo "Comprovante" deve ter de 6 a 9 caracteres!</value>
+  </data>
+  <data name="msgCondicaoPagtoCartaoRangeOutros" xml:space="preserve">
+    <value>O campo "Cartão" deve ter 16 caracteres!</value>
+  </data>
+  <data name="msgReceitaObrigatoria" xml:space="preserve">
+    <value>Não é possível finalizar o pedido sem a aprovação do BackOffice de receitas!</value>
+  </data>
+  <data name="msgClienteFaturamentoSemEndereco" xml:space="preserve">
+    <value>Nenhum endereço de entrega informado para o cliente {0}!</value>
+  </data>
+  <data name="msgItemQuantidadeNaoInformada" xml:space="preserve">
+    <value>A quantidade do item {0} não foi informada!</value>
+  </data>
+  <data name="msgItemValorNaoInformado" xml:space="preserve">
+    <value>O valor do item {0} não foi informado!</value>
+  </data>
+  <data name="msgPedidoInformeCondicaoPagamento" xml:space="preserve">
+    <value>Informe os dados da condição de pagamento do pedido!</value>
+  </data>
+  <data name="lblDadosClienteEmiteBoleto" xml:space="preserve">
+    <value>Emite Boleto</value>
+  </data>
+  <data name="msgContratoDadosBancarios" xml:space="preserve">
+    <value>Informe os dados bancários!</value>
+  </data>
+  <data name="msgContratoData" xml:space="preserve">
+    <value>Informe a data do contrato!</value>
+  </data>
+  <data name="msgContratoDocumentos" xml:space="preserve">
+    <value>Informe o documento!</value>
+  </data>
+  <data name="msgContratoLicitacaoId" xml:space="preserve">
+    <value>Informe o número do contrato/licitação!</value>
+  </data>
+  <data name="msgContratoModalidade" xml:space="preserve">
+    <value>Informa a modalidade do contrato!</value>
+  </data>
+  <data name="msgContratoPrazoEntrega" xml:space="preserve">
+    <value>Informe o prazo de entrega!</value>
+  </data>
+  <data name="msgContratoProcesso" xml:space="preserve">
+    <value>Informe o número do processo!</value>
+  </data>
+  <data name="msgContratoValidadeExigida" xml:space="preserve">
+    <value>Informa a validade exigida!</value>
+  </data>
+  <data name="msgContratoVigencia" xml:space="preserve">
+    <value>Informe a vigência do contrato!</value>
+  </data>
+  <data name="lblClienteAvaliacao" xml:space="preserve">
+    <value>Avaliação</value>
+  </data>
+  <data name="lblClienteAvaliacaoEmbarque" xml:space="preserve">
+    <value>Avaliação embarque</value>
+  </data>
+  <data name="lblClientePeriodoAtraso" xml:space="preserve">
+    <value>Período atraso</value>
+  </data>
+  <data name="lblLimitesAtrasosDuplicata" xml:space="preserve">
+    <value>Limites e atrasos duplicata</value>
+  </data>
+  <data name="lblNaoAvalia" xml:space="preserve">
+    <value>Não avalia</value>
+  </data>
+  <data name="lblSomenteAtrasoDuplicata" xml:space="preserve">
+    <value>Somente atraso duplicata</value>
+  </data>
+  <data name="Cadastrado" xml:space="preserve">
+    <value>Cadastrado</value>
+  </data>
+  <data name="EmAndamento" xml:space="preserve">
+    <value>Em andamento</value>
+  </data>
+  <data name="Encerrado" xml:space="preserve">
+    <value>Encerrado</value>
+  </data>
+  <data name="lblDivergenciaSaldoItem" xml:space="preserve">
+    <value>Item sem saldo</value>
+  </data>
+  <data name="msgItemSemSaldoEnviaParaReserva" xml:space="preserve">
+    <value>O item {0} está sem saldo no estoque. Salvando o pedido nessa situação o mesmo será enviado para reserva!</value>
+  </data>
+  <data name="msgContratoCancelamentoFalha" xml:space="preserve">
+    <value>Falha ao tentar realizar o cancelamento do contrato!</value>
+  </data>
+  <data name="msgContratoCancelamentoSucesso" xml:space="preserve">
+    <value>Cancelamento realizado com sucesso!</value>
+  </data>
+  <data name="lblCancelamentoInforme" xml:space="preserve">
+    <value>Informe o motivo do cancelamento</value>
+  </data>
+  <data name="lblContratoInformacoes" xml:space="preserve">
+    <value>{0} POR: {1} EM: {2:dd/MM/yyyy HH:mm:ss}. {3}</value>
+  </data>
+  <data name="lblContratoInformacoesEncerrado" xml:space="preserve">
+    <value>{0} EM {1:dd/MM/yyyy HH:mm:ss}</value>
+  </data>
+  <data name="msgQtdCaracteresPermitidos" xml:space="preserve">
+    <value>Para este campo a quantidade máxima de caracteres permitida é: </value>
+  </data>
+  <data name="msgInformeDataEntregaPedido" xml:space="preserve">
+    <value>Informe a data de entrega do pedido!</value>
+  </data>
+  <data name="msgInformePeriodoPedido" xml:space="preserve">
+    <value>Informe o período do pedido!</value>
+  </data>
+  <data name="msgInformePrazoPedido" xml:space="preserve">
+    <value>Informe o prazo do pedido!</value>
+  </data>
+  <data name="lblPedidoItemQuandidadeMaiorSaldo" xml:space="preserve">
+    <value>O item {0} está com a quantidade maior que o saldo!</value>
+  </data>
+  <data name="lblNF" xml:space="preserve">
+    <value>NF</value>
+  </data>
+  <data name="lblNFTriangular" xml:space="preserve">
+    <value>NF Trialgular</value>
+  </data>
+  <data name="msgInformeBairroRetiradaReceita" xml:space="preserve">
+    <value>Informe o bairro!</value>
+  </data>
+  <data name="msgInformeCepRetiradaReceita" xml:space="preserve">
+    <value>Informe o CEP!</value>
+  </data>
+  <data name="msgInformeCidadeRetiradaReceita" xml:space="preserve">
+    <value>Informe a cidade!</value>
+  </data>
+  <data name="msgInformeDataRetiradaReceita" xml:space="preserve">
+    <value>Infome a data de retirada!</value>
+  </data>
+  <data name="msgInformeNumeroRetiradaReceita" xml:space="preserve">
+    <value>Informe o número!</value>
+  </data>
+  <data name="msgInformePaisRetiradaReceita" xml:space="preserve">
+    <value>Informe o país!</value>
+  </data>
+  <data name="msgInformePeriodoretiradaReceita" xml:space="preserve">
+    <value>Informe o período!</value>
+  </data>
+  <data name="msgInformeRuaRetiradaReceita" xml:space="preserve">
+    <value>Informe a rua!</value>
+  </data>
+  <data name="msgInformeUfRetiradaReceita" xml:space="preserve">
+    <value>Informe a UF!</value>
+  </data>
+  <data name="lblEmpenhoTitulo" xml:space="preserve">
+    <value>Cadastro de Empenho</value>
+  </data>
+  <data name="lblContratoCondicaoComercial" xml:space="preserve">
+    <value>Condição comercial</value>
+  </data>
+  <data name="lblContratoCondicoesComerciais" xml:space="preserve">
+    <value>Condições comerciais</value>
+  </data>
+  <data name="lblContratoObservacoes" xml:space="preserve">
+    <value>Observações do contrato</value>
+  </data>
+  <data name="lblEmpenhoClienteFaturamento" xml:space="preserve">
+    <value>CNPJ de faturamento</value>
+  </data>
+  <data name="lblEmpenhoDados" xml:space="preserve">
+    <value>Dados do empenho</value>
+  </data>
+  <data name="lblEmpenhoData" xml:space="preserve">
+    <value>Data do empenho</value>
+  </data>
+  <data name="lblEmpenhoItens" xml:space="preserve">
+    <value>Itens do empenho</value>
+  </data>
+  <data name="lblEmpenhoItensSelecionar" xml:space="preserve">
+    <value>Selecionar itens do Empenho</value>
+  </data>
+  <data name="lblEmpenhoLimiteEntrega" xml:space="preserve">
+    <value>Data limite de entrega</value>
+  </data>
+  <data name="lblEmpenhoNatureza" xml:space="preserve">
+    <value>Natureza do empenho</value>
+  </data>
+  <data name="lblEmpenhoObservacoes" xml:space="preserve">
+    <value>Observações do empenho</value>
+  </data>
+  <data name="lblExportarExcel" xml:space="preserve">
+    <value>Exportar para o excel</value>
+  </data>
+  <data name="lblGerarOC" xml:space="preserve">
+    <value>Gerar ordem de compra</value>
+  </data>
+  <data name="lblEmpenhoContratoHeader" xml:space="preserve">
+    <value>Empenho X Contrato/Cliente</value>
+  </data>
+  <data name="lblEmpenhoContratoItem" xml:space="preserve">
+    <value>Empenho X Contrato/Item</value>
+  </data>
+  <data name="msgEmpenhoInformeFaturamento" xml:space="preserve">
+    <value>Informe o cliente de faturamento!</value>
+  </data>
+  <data name="msgEmpenhoInformeData" xml:space="preserve">
+    <value>Informe a data do empenho/documento!</value>
+  </data>
+  <data name="msgEmpenhoInformeNumero" xml:space="preserve">
+    <value>Informe o número do empenho/documento!</value>
+  </data>
+  <data name="lblConfirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="lblConfirmarSenha" xml:space="preserve">
+    <value>Confirmar Senha</value>
+  </data>
+  <data name="lblAlteraSenhaHeader" xml:space="preserve">
+    <value>INFORME A NOVA SENHA</value>
+  </data>
+  <data name="msgSenhasDirefentes" xml:space="preserve">
+    <value>Senhas diferentes! Por favor informe a senha novamente</value>
+  </data>
+  <data name="msgEmpenhoFaturamentoAlterado" xml:space="preserve">
+    <value>Cliente de faturamento diferente do informado para os outros itens do empenho!</value>
+  </data>
+  <data name="msgProdutoEnderecoEntrega" xml:space="preserve">
+    <value>Informe o endereço de entrega do item {0}!</value>
+  </data>
+  <data name="msgProdutoMesmoEndereco" xml:space="preserve">
+    <value>Endereço de entrega já informado para o item {0}!</value>
+  </data>
+  <data name="msgQuantidadeInvalida" xml:space="preserve">
+    <value>A quantidade informada para o item {0} é inválida!</value>
+  </data>
+  <data name="msgValorInvalido" xml:space="preserve">
+    <value>O valor informado para o item {0} é inválido!</value>
+  </data>
+  <data name="lblContratoSaldo" xml:space="preserve">
+    <value>Contrato saldo</value>
+  </data>
+  <data name="lblEmpenhoItemSaldo" xml:space="preserve">
+    <value>Saldo empenho</value>
+  </data>
+  <data name="lblQuantidadeLiberada" xml:space="preserve">
+    <value>Quantidade liberada</value>
+  </data>
+  <data name="lblEnderecoEntrega" xml:space="preserve">
+    <value>Endereço de entrega</value>
+  </data>
+  <data name="msgInformeDataPrescricao" xml:space="preserve">
+    <value>Informe a data de prescrição</value>
+  </data>
+  <data name="msgInformeDosagemPorDia" xml:space="preserve">
+    <value>Informe a dosagem por dia!</value>
+  </data>
+  <data name="msgInformeNumeroReceita" xml:space="preserve">
+    <value>Informe o número da receita!</value>
+  </data>
+  <data name="msgInformeQuantidadePrescrita" xml:space="preserve">
+    <value>Informe a quantidade prescrita!</value>
+  </data>
+  <data name="msgFalhaExclusaoItem" xml:space="preserve">
+    <value>Falha ao tentar excluir o item {0} do contrato!</value>
+  </data>
+  <data name="lblVisualizarPedidos" xml:space="preserve">
+    <value>Visualizar pedidos</value>
+  </data>
+  <data name="msgTipoDoacaoSemCondicao" xml:space="preserve">
+    <value>Quando o tipo do pedido for "Doação" você não poderá alterar a condição de pagamento!</value>
+  </data>
+  <data name="msgSaldoIndisponivel" xml:space="preserve">
+    <value>Saldo indisponivel para o item {0}!</value>
+  </data>
+  <data name="msgDataPrevisaoPedidoMenorHoje" xml:space="preserve">
+    <value>A data de entrega deve ser maior que a data de hoje!</value>
+  </data>
+  <data name="lblEmpenhoAnexos" xml:space="preserve">
+    <value>Empenho X Documentos</value>
+  </data>
+  <data name="lblContratoDocumentoHeader" xml:space="preserve">
+    <value>Contrato X Documentos</value>
+  </data>
+  <data name="msgContratoAlterar" xml:space="preserve">
+    <value>Exclua os itens para poder alterar o contrato!</value>
+  </data>
+  <data name="msgVinculoVariosUnidades" xml:space="preserve">
+    <value>o usuário {0} está vinculado a mais de uma unidade de negócios(célula). Entre em contato com o superior de sua área para regularizar </value>
+  </data>
+  <data name="msgMedicoResource" xml:space="preserve">
+    <value>Informe o representante!</value>
+  </data>
+  <data name="msgNomeAbreviadoInvalido" xml:space="preserve">
+    <value>Nome abreviado não informado!</value>
+  </data>
+  <data name="msgNomeAbreviadoJaExistente" xml:space="preserve">
+    <value>O nome abreviado {0} já existe!</value>
+  </data>
+  <data name="msgClienteContatoNomeExistente" xml:space="preserve">
+    <value>Nome de contato já existente!</value>
+  </data>
+  <data name="lblInformaFrete" xml:space="preserve">
+    <value>Informa Frete?</value>
+  </data>
+  <data name="lblDataPedido" xml:space="preserve">
+    <value>Data do Pedido</value>
+  </data>
+  <data name="lblMotivoIntegracao" xml:space="preserve">
+    <value>Motivo Integração </value>
+  </data>
+  <data name="lblClienteIdErp" xml:space="preserve">
+    <value>Cod. Cliente ERP</value>
+  </data>
+  <data name="lblNomeCliente" xml:space="preserve">
+    <value>Nome Cliente</value>
+  </data>
+  <data name="msgFinanceiroObrigatorio" xml:space="preserve">
+    <value>O pedido não pode ser finalizado, pois o mesmo encontra-se pendente de aprovação financeira!</value>
+  </data>
+  <data name="msgEnderecoPadraoObrigatorio" xml:space="preserve">
+    <value>É necessário que exista um endereço com o tipo "PADRÃO" entre os endereços do cliente!</value>
+  </data>
+  <data name="lblQtd" xml:space="preserve">
+    <value>Qtd</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="msgCidadeInvalida" xml:space="preserve">
+    <value>A cidade {0}, não está cadastrada na base de dados para o pais {1} e o estado {2}!</value>
+  </data>
+  <data name="msgContratoExistente" xml:space="preserve">
+    <value>Já existe contrato cadastrado com o número {0}, para a loja {1} e o cliente {2}!</value>
+  </data>
+  <data name="lblCadastroClienteTitulo" xml:space="preserve">
+    <value>Cadastro de clientes</value>
+  </data>
+  <data name="ltrCnpjFaturamento" xml:space="preserve">
+    <value>CNPJ's de faturamento</value>
+  </data>
+  <data name="ltrDadosContrato" xml:space="preserve">
+    <value>Dados do contrato</value>
+  </data>
+  <data name="ltrEnderecoFaturamento" xml:space="preserve">
+    <value>Endereços de faturamento</value>
+  </data>
+  <data name="ltrItensPesquisa" xml:space="preserve">
+    <value>Pesquisa de itens</value>
+  </data>
+  <data name="lblEmpenhoPedidoHeader" xml:space="preserve">
+    <value>Pedido X Empenho</value>
+  </data>
+  <data name="msgConfirmarCancelamentoLicitacaoBody" xml:space="preserve">
+    <value>Deseja utilizar os mesmos dados para a criação de um novo contrato?</value>
+  </data>
+  <data name="lblCondicaoPgtoPublico" xml:space="preserve">
+    <value>ORGAO PUBLICO - DEPOSITO</value>
+  </data>
+  <data name="msgAlteraEnderecoItem" xml:space="preserve">
+    <value>Remova os itens para poder alterar o endereço de entrega!</value>
+  </data>
+  <data name="lblEmpenhoInformacoes" xml:space="preserve">
+    <value>{0} POR: {1} EM: {2:dd/MM/yyyy HH:mm:ss}. {3}</value>
+  </data>
+  <data name="lblEmpenhoInformacoesEncerrado" xml:space="preserve">
+    <value>{0} EM {1:dd/MM/yyyy HH:mm:ss}</value>
+  </data>
+  <data name="lblEmpenhoItemPedido" xml:space="preserve">
+    <value>Pedido X Itens do empenho</value>
+  </data>
+  <data name="lblEmpenhoItensTotal" xml:space="preserve">
+    <value>Total de itens</value>
+  </data>
+  <data name="lblEmpenhoValorTotal" xml:space="preserve">
+    <value>Empenho valor total</value>
+  </data>
+  <data name="msgOcPathInexistente" xml:space="preserve">
+    <value>O caminho para a gravação do arquivo de Ordem de Compras, não foi informado na seção AppSettings do arquivo Web.config para a chave OC_PATH!</value>
+  </data>
+  <data name="msgOrdemCompraGerada" xml:space="preserve">
+    <value>Ordem de compra gerada com sucesso!</value>
+  </data>
+  <data name="msgOrdemCompraJaGerada" xml:space="preserve">
+    <value>Ordem de compra já emitida!</value>
+  </data>
+  <data name="lblOrdemCompraGerar" xml:space="preserve">
+    <value>Deseja gerar a ordem de compra para o empenho {0}?</value>
+  </data>
+  <data name="lblEmpenhoOrdemGerada" xml:space="preserve">
+    <value>OC {0} gerada por {1}, em {2:dd/MM/yyyy HH:mm:ss}.</value>
+  </data>
+  <data name="lblOC" xml:space="preserve">
+    <value>OC</value>
+  </data>
+  <data name="lblDadosClienteWfEnderecoExemploPadrao" xml:space="preserve">
+    <value>Exemplo de padrão</value>
+  </data>
+  <data name="lblDadosClienteWfEnderecoExemploPadraoTexto" xml:space="preserve">
+    <value>Avenida Ibirapuera, 2120</value>
+  </data>
+  <data name="msgEnderecoForaPadrao" xml:space="preserve">
+    <value>Descrição de endereço fora do padrão!</value>
+  </data>
+  <data name="msgExisteRegistroEmpenho" xml:space="preserve">
+    <value>Já existe um registro com empenho: {0}, Cliente faturamento: {1} e natureza: {2}  informados para o contrato: {3}</value>
+  </data>
+  <data name="lblCnpjGreen" xml:space="preserve">
+    <value>Liberado(s)</value>
+  </data>
+  <data name="lblCnpjOrange" xml:space="preserve">
+    <value>Principal do contrato</value>
+  </data>
+  <data name="lblCnpjRed" xml:space="preserve">
+    <value>Vinculado a empenho(s)</value>
+  </data>
+  <data name="msgConfirmacaoCancelamentoEmpenho" xml:space="preserve">
+    <value>Deseja realmente efetuar o cancelamento deste empenho?</value>
+  </data>
+  <data name="msgEmpenhoCanceladoFalha" xml:space="preserve">
+    <value>Houve uma falha ao tentar cancelar o empenho!</value>
+  </data>
+  <data name="msgEmpenhoCanceladoSucesso" xml:space="preserve">
+    <value>Empenho cancelado com sucesso!</value>
+  </data>
+  <data name="msgInformeMoticoCancelamentoEmpenho" xml:space="preserve">
+    <value>Informe o motivo do cancelamento!</value>
+  </data>
+  <data name="lblTotalValorItens" xml:space="preserve">
+    <value>Valor total dos itens</value>
+  </data>
+  <data name="lblVendaComum" xml:space="preserve">
+    <value>Venda comum?</value>
+  </data>
+  <data name="msgItemQuantidadeInformadaMenorQueVinculada" xml:space="preserve">
+    <value>A quantidade do item {0} não pode ser menor do que a quantidade já vinculada a empenho(s). &lt;br/&gt; Quantidade vinculada a empenho(s): {1}.</value>
+  </data>
+  <data name="msgPedidoRepresentanteInativo" xml:space="preserve">
+    <value>O representante deste pedido está inativo e o pedido não poderá ser finalizado nessas condições</value>
+  </data>
+  <data name="msgRepresentanteInativo" xml:space="preserve">
+    <value>O representante selecionado está inativo e o registro não poderá ser salvo nessas condições!</value>
+  </data>
+  <data name="lblDivergenciaRepresentanteInativo" xml:space="preserve">
+    <value>Representante Inativo</value>
+  </data>
+  <data name="lblSetAprovacao" xml:space="preserve">
+    <value>Aprovar item divergente</value>
+  </data>
+  <data name="lblViewAprovacao" xml:space="preserve">
+    <value>Visualizar aprovação</value>
+  </data>
+  <data name="lblAprovarTudo" xml:space="preserve">
+    <value>Aprovar tudo</value>
+  </data>
+  <data name="lblMotivoAprovacaoHeader" xml:space="preserve">
+    <value>Item divergente X Motivo aprovação</value>
+  </data>
+  <data name="lblMotivoAprovacaoLayout" xml:space="preserve">
+    <value>Aprovador: {0} \n Aprovado em: {1:dd/MM/yyyy HH:mm:ss} \n Item: {2} - {3} \n Valor Contrato: {4:###,###,###,##0.00} \n Valor Empenho: {5:###,###,###,##0.00} \n Entrega: {6} \n Descrição: \n {7}</value>
+  </data>
+  <data name="msgAprovacaoMotivo" xml:space="preserve">
+    <value>Informe o motivo da aprovação!</value>
+  </data>
+  <data name="msgGradeAprovacaoFalha" xml:space="preserve">
+    <value>Falha ao tentar aprovar a grade!</value>
+  </data>
+  <data name="msgGradeAprovadaSucesso" xml:space="preserve">
+    <value>Grade aprovada com sucesso!</value>
+  </data>
+  <data name="msgGradeNaoInvalida" xml:space="preserve">
+    <value>Nenhum item com valor não aprovado!</value>
+  </data>
+  <data name="msgEmpenhoSalvoDivergencia" xml:space="preserve">
+    <value>Dados armazenados com sucesso! Este empenho será mantido como status de &lt;font color='Red'&gt;Supervisor&lt;/font&gt;, devido à existência de itens com divergência de valores na grade.</value>
+  </data>
+  <data name="msgClienteImplantadoNaoAltera" xml:space="preserve">
+    <value>Cliente com o status de "Implantado" não pode sofrer alterações!</value>
+  </data>
+  <data name="lblAdmVendasMsg" xml:space="preserve">
+    <value>Informa se faz parte da administração de vendas(Sim/Não).</value>
+  </data>
+  <data name="lblAdmVendas" xml:space="preserve">
+    <value>ADM Vendas?</value>
+  </data>
+  <data name="lblEmpenhoXPedido" xml:space="preserve">
+    <value>Empenho X Pedidos</value>
+  </data>
+  <data name="lblDadosEmpenho" xml:space="preserve">
+    <value>Dados do empenho</value>
+  </data>
+  <data name="lblPedidoEmpenho" xml:space="preserve">
+    <value>Pedido X Contrato/Empenho - Documentos</value>
+  </data>
+  <data name="msgJobTabelaPrecoExecutandoNaoOk" xml:space="preserve">
+    <value>Falha ao tentar executar o Job(KraftSales_CargaTabelaPreco) de manutenção de tabela de preços!</value>
+  </data>
+  <data name="msgJobTabelaPrecoExecutandoOk" xml:space="preserve">
+    <value>O Job(KraftSales_CargaTabelaPreco) de manutenção de tabela de preços está sendo executado.</value>
+  </data>
+  <data name="lblExecutarNovamente" xml:space="preserve">
+    <value>Executar</value>
+  </data>
+  <data name="lblJobTabelaPrecosHeader" xml:space="preserve">
+    <value>Tabela de preços - Execução Job</value>
+  </data>
+  <data name="lblTabelaPreco" xml:space="preserve">
+    <value>Tabela de Preços</value>
+  </data>
+  <data name="Orcamento" xml:space="preserve">
+    <value>Orçamento</value>
+  </data>
+  <data name="msgOrcamentoInformeValidade" xml:space="preserve">
+    <value>Informe a validade do orçamento!</value>
+  </data>
+  <data name="msgOrcamentoInformeObservacao" xml:space="preserve">
+    <value>Informe uma observação para o orçamento!</value>
+  </data>
+  <data name="msgOrcamentoValidadeInvalida" xml:space="preserve">
+    <value>Validade inferior à data atual!</value>
+  </data>
+  <data name="lblUtilizar" xml:space="preserve">
+    <value>Utilizar</value>
+  </data>
+  <data name="lblOrcamentoDataDigitacao" xml:space="preserve">
+    <value>Data digitação</value>
+  </data>
+  <data name="lblOrcamentoDiasCorridos" xml:space="preserve">
+    <value>{0:d2} dia(s) corrido(s).</value>
+  </data>
+  <data name="msgOrcamentoInforme" xml:space="preserve">
+    <value>Informe o orçamento!</value>
+  </data>
+  <data name="titOrcamentoCliente" xml:space="preserve">
+    <value>Orçamento(s) disponível(eis) para o cliente: {0}</value>
+  </data>
+  <data name="lblPedidoCopiar" xml:space="preserve">
+    <value>Copiar Pedido</value>
+  </data>
+  <data name="msgPedidoInvalidoCopia" xml:space="preserve">
+    <value>Nenhum registro foi encontrado ou pedido digitado não é tipo pessoa física.</value>
+  </data>
+  <data name="msgPedidoNumeroInforme" xml:space="preserve">
+    <value>Informe o número do pedido!</value>
+  </data>
+  <data name="Consolidado" xml:space="preserve">
+    <value>Consolidado</value>
+  </data>
+  <data name="ConsolidadoPorLoja" xml:space="preserve">
+    <value>ConsolidadoPorLoja</value>
+  </data>
+  <data name="ConsolidadoPorLojaTexto" xml:space="preserve">
+    <value>Estoque por loja</value>
+  </data>
+  <data name="ConsolidadoTexto" xml:space="preserve">
+    <value>Estoque Consolidado</value>
+  </data>
+  <data name="lblModoConsulta" xml:space="preserve">
+    <value>Modo consulta</value>
+  </data>
+  <data name="lblValorEconomia" xml:space="preserve">
+    <value>Preço mínimo: {0:###,###,###,##0.00} | Preço máximo: {1:###,###,###,##0.00} | Economia: {2:###,###,###,##0.00}</value>
+  </data>
+  <data name="lblConsultaEstoqueAlocadas" xml:space="preserve">
+    <value>Consulta de estoque X Alocado(s)</value>
+  </data>
+  <data name="lblConsultaEstoquePedidos" xml:space="preserve">
+    <value>Consulta de estoque X Pedido(s)</value>
+  </data>
+  <data name="lblConsultaEstoqueReservas" xml:space="preserve">
+    <value>Consulta de estoque X Reserva(s)</value>
+  </data>
+  <data name="lblVisualizarAlocada" xml:space="preserve">
+    <value>Visualizar alocados</value>
+  </data>
+  <data name="lblVisualizarRservas" xml:space="preserve">
+    <value>Visualizar reservas</value>
+  </data>
+  <data name="msgPedidoInvalidoCopiaPJ" xml:space="preserve">
+    <value>Nenhum registro foi encontrado ou pedido digitado não é tipo pessoa jurídica.</value>
+  </data>
+  <data name="msgOrcamentoEmAberto" xml:space="preserve">
+    <value>Existe orçamento dentro do prazo de validade para este cliente na unidade de negócios {0}!</value>
+  </data>
+  <data name="lblFollowUp" xml:space="preserve">
+    <value>Follow Up</value>
+  </data>
+  <data name="lblLembrete" xml:space="preserve">
+    <value>Lembrete</value>
+  </data>
+  <data name="lblPedidoFollowUp" xml:space="preserve">
+    <value>Pedido X Follow Up | [Pedido: {0} - {1}]</value>
+  </data>
+  <data name="lblResponsavel" xml:space="preserve">
+    <value>Responsável</value>
+  </data>
+  <data name="msgFollowUpSalvarFalha" xml:space="preserve">
+    <value>Falha ao tentar registrar o follow up!</value>
+  </data>
+  <data name="lblOcorrencia" xml:space="preserve">
+    <value>Ocorrência</value>
+  </data>
+  <data name="msgFollowUpDescricao" xml:space="preserve">
+    <value>Informa a descrição do follow up!</value>
+  </data>
+  <data name="msgFollowUpInformeTipo" xml:space="preserve">
+    <value>Informe o tipo do follow up!</value>
+  </data>
+  <data name="msgFollowUpLembrete" xml:space="preserve">
+    <value>Informe a data do lembrete!</value>
+  </data>
+  <data name="lblVisualizarFollowUp" xml:space="preserve">
+    <value>Visualizar follow up</value>
+  </data>
+  <data name="lblBuscarCep" xml:space="preserve">
+    <value>Pesquisar Cep</value>
+  </data>
+  <data name="lblPedidoReceitaEndereco" xml:space="preserve">
+    <value>Pedido: {0} | Receita X Endereço de retirada</value>
+  </data>
+  <data name="lblPedidoReceitaDocumento" xml:space="preserve">
+    <value>Pedido: {0} | Receita X Documentos</value>
+  </data>
+  <data name="lblReceitaDocumentoUtilizar" xml:space="preserve">
+    <value>Documentos do cliente</value>
+  </data>
+  <data name="lblReceitaDocumentoView" xml:space="preserve">
+    <value>Visualizar arquivo</value>
+  </data>
+  <data name="lblReceitaEnderecoTexto" xml:space="preserve">
+    <value>Endereço de retirada de receitas</value>
+  </data>
+  <data name="lblDosagem" xml:space="preserve">
+    <value>Dosagem</value>
+  </data>
+  <data name="lblPrescricao" xml:space="preserve">
+    <value>Prescrição</value>
+  </data>
+  <data name="lblFiltros" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="lblContrair" xml:space="preserve">
+    <value>Contrair</value>
+  </data>
+  <data name="lblExpandir" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="lblSimulacaoVenda" xml:space="preserve">
+    <value>Simulação de Margem de Venda</value>
+  </data>
+  <data name="lblAjusteRegimeFiscal" xml:space="preserve">
+    <value>(+) Ajuste Regime Fiscal</value>
+  </data>
+  <data name="lblAliquotaInternaICMS" xml:space="preserve">
+    <value>Alíquota Interna ICMS</value>
+  </data>
+  <data name="lblClasseFiscal" xml:space="preserve">
+    <value>Classe Fiscal</value>
+  </data>
+  <data name="lblCustoPadrao" xml:space="preserve">
+    <value>Custo Padrão</value>
+  </data>
+  <data name="lblCustoPadraoCalculo" xml:space="preserve">
+    <value>(-) Custo Padrão)</value>
+  </data>
+  <data name="lblDescontoAdicional" xml:space="preserve">
+    <value>Descontos Adicionais</value>
+  </data>
+  <data name="lblDescontoComercial" xml:space="preserve">
+    <value>Desconto Comercial</value>
+  </data>
+  <data name="lblDescontoPadrao" xml:space="preserve">
+    <value>Desconto Padrão</value>
+  </data>
+  <data name="lblDscST" xml:space="preserve">
+    <value>Desc para ST</value>
+  </data>
+  <data name="lblFornecedor" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="lblICMSCreditoVlr" xml:space="preserve">
+    <value>Crédito ICMS ($)</value>
+  </data>
+  <data name="lblICMSe" xml:space="preserve">
+    <value>ICMSe (%)</value>
+  </data>
+  <data name="lblICMSSobreVenda" xml:space="preserve">
+    <value>(-) ICMS Sobre Venda</value>
+  </data>
+  <data name="lblICMSSobreVendaST" xml:space="preserve">
+    <value>(-) ICMS-ST Sobre Venda</value>
+  </data>
+  <data name="lblInformacoesBasicas" xml:space="preserve">
+    <value>Informações básicas</value>
+  </data>
+  <data name="lblIPIPrc" xml:space="preserve">
+    <value>IPI (%)</value>
+  </data>
+  <data name="lblIPIVlr" xml:space="preserve">
+    <value>IPI ($)</value>
+  </data>
+  <data name="lblISMSSTVlr" xml:space="preserve">
+    <value>ICMS-ST ($)</value>
+  </data>
+  <data name="lblLista" xml:space="preserve">
+    <value>Lista</value>
+  </data>
+  <data name="lblMargemPrc" xml:space="preserve">
+    <value>(=) Margem (%)</value>
+  </data>
+  <data name="lblMargemVlr" xml:space="preserve">
+    <value>(=) Margem ($)</value>
+  </data>
+  <data name="lblMVA" xml:space="preserve">
+    <value>MVA</value>
+  </data>
+  <data name="lblPISCofinsPrc" xml:space="preserve">
+    <value>PIS / COFINS (%)</value>
+  </data>
+  <data name="lblPISCofinsSobreVenda" xml:space="preserve">
+    <value>(-) PIS/COFINS Sobre Venda</value>
+  </data>
+  <data name="lblPISCofinsVlr" xml:space="preserve">
+    <value>PIS / COFINS ($)</value>
+  </data>
+  <data name="lblPMC18" xml:space="preserve">
+    <value>PMC {0:f0}%</value>
+  </data>
+  <data name="lblPrecoAquisicao" xml:space="preserve">
+    <value>Preço de Aquisição</value>
+  </data>
+  <data name="lblPrecoVenda" xml:space="preserve">
+    <value>Preço Venda</value>
+  </data>
+  <data name="lblPrecoVendaLiquido" xml:space="preserve">
+    <value>(=) Preço de Venda Líquido</value>
+  </data>
+  <data name="lblReducaoBase" xml:space="preserve">
+    <value>Redução Base</value>
+  </data>
+  <data name="lblRepasse" xml:space="preserve">
+    <value>Repasse</value>
+  </data>
+  <data name="lblUfOrigem" xml:space="preserve">
+    <value>UF Origem</value>
+  </data>
+  <data name="msgInformeCodigoItem" xml:space="preserve">
+    <value>Informe o código do item!</value>
+  </data>
+  <data name="lblSimuladorPreco" xml:space="preserve">
+    <value>Simulador de preços</value>
+  </data>
+  <data name="msgInformeItem" xml:space="preserve">
+    <value>Informe o código do item!</value>
+  </data>
+  <data name="lblErro" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="msgInformeEstadoDestino" xml:space="preserve">
+    <value>Informe o estado destino!</value>
+  </data>
+  <data name="msgPrecoOuMargemInforme" xml:space="preserve">
+    <value>Informe o preço, desconto ou a margem objetivo!</value>
+  </data>
+  <data name="msgPercentualNaoCalculavel" xml:space="preserve">
+    <value>Percentual impossivel de ser calculado!</value>
+  </data>
+  <data name="msgInformePerfilCliente" xml:space="preserve">
+    <value>Informe o perfil do cliente!</value>
+  </data>
+  <data name="lblInexistente" xml:space="preserve">
+    <value>Inexistente</value>
+  </data>
+  <data name="lblNaoConsta" xml:space="preserve">
+    <value>Não consta</value>
+  </data>
+  <data name="msgAcessoNegado" xml:space="preserve">
+    <value>Você não possúi permissão de acesso à esta aplicação. Entre em contato com o seu supervisor(a)!</value>
+  </data>
+  <data name="msgItemObsoleto" xml:space="preserve">
+    <value>O item está marcado como obsoleto!</value>
+  </data>
+</root>

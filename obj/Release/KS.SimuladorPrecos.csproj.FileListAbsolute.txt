@@ -1,0 +1,44 @@
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.dll
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.pdb
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.dll
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\DatabaseAccessLib.dll
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.pdb
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.csprojResolveAssemblyReference.cache
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.dll
+C:\Users\Renê\Documents\Visual Studio 2012\Projects\KRAFTSALESONCO\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.pdb
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.dll
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.pdb
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.dll
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\DatabaseAccessLib.dll
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.pdb
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.csprojResolveAssemblyReference.cache
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.dll
+C:\Users\Ciro\Desktop\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.pdb
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.dll
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.pdb
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.dll
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\DatabaseAccessLib.dll
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.pdb
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.csprojResolveAssemblyReference.cache
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.dll
+D:\ProjetosKraft\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.pdb
+<<<<<<< .mine
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.dll
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.pdb
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.dll
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\DatabaseAccessLib.dll
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.pdb
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.csprojResolveAssemblyReference.cache
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.dll
+D:\ProjetosKraft\Oncoprod\Simulador_Precos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.pdb
+||||||| .r4
+=======
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.dll
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.pdb
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.dll
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\DatabaseAccessLib.dll
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\bin\KS.SimuladorPrecos.DataEntities.pdb
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.csprojResolveAssemblyReference.cache
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.dll
+D:\Projetos\TortoiseSVN\SimuladorPrecos\branches\KSONCO.SIMULADORPRECOS\KS.SimuladorPrecos\obj\Release\KS.SimuladorPrecos.pdb
+>>>>>>> .r7

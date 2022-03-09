@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="KraftMaster.master.cs"
+    Inherits="KS.SimuladorPrecos.AppMaster.KraftMaster" %>
+
+<%-- CONTROLES  --%>
+<%@ Register Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit" TagPrefix="ucc" %>
+<%@ Register Src="~/AppControles/CtlAlert.ascx" TagName="CtlAlert" TagPrefix="CtlAlt" %>
+<%@ Register Src="~/AppControles/CtlOption.ascx" TagName="ControlOption" TagPrefix="CtlOption" %>
+<%-- *********  --%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script language="javascript" type="text/javascript" src="../../Scripts/KSSimuladorPrecosScripts.js"></script>
+    <link rel="shortcut icon" href="../Imagens/Icone.ico" />    
+    <link href="../Styles/Style.css" rel="Stylesheet" type="text/css" />   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="smMaster" runat="server" AllowCustomErrorsRedirect="true"
+        AsyncPostBackTimeout="600" ScriptMode="Debug" EnableScriptGlobalization="true"
+        EnableScriptLocalization="true" EnablePageMethods="true" />
+
+    <%-- CONTROLES --%>
+    <CtlAlt:CtlAlert ID="CtlAlert" runat="server" />
+    <CtlOption:ControlOption ID="CtlOption" runat="server" />
+    
+    <%-- BLOCO CONFIRMAR --%>
+    <div style="position: absolute;">
+        <asp:UpdatePanel ID="upConfirma" runat="server" UpdateMode="Conditional">
+            <Triggers>
+                <asp:AsyncPostBackTrigger ControlID="lbLogOnLogOff" EventName="Click" />
+            </Triggers>
+            <ContentTemplate>
+                <asp:Panel ID="pnlConfirma" runat="server" Visible="false">
+                    <div class="OpacityBackGround">
+                    </div>
+                    <div class="alert">
+                        <div class="alert_header">
+                            <div class="alert_header_message">
+                                <asp:Label ID="lblConfirmHeader" runat="server" ForeColor="White" />
+                            </div>
+                        </div>
+                        <div class="alert_body">
+                            <div style="width: 100%; height: 100%; display: table; margin-top: 0px;">
+                                <div style="width: 80%; height: 100%; display: table-cell; vertical-align: middle;">
+                                    <asp:Label ID="lblConfirmBody" runat="server" ForeColor="Black" />
+                                </div>
+                                <div style="width: 20%; height: 100%; display: table-cell; vertical-align: middle; text-align: center;">
+                                    <asp:Image ID="imgAlert" runat="server" Height="50%" Width="60%" ImageAlign="AbsMiddle" ImageUrl="~/Imagens/question.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alert_bottom">
+                            <div class="alert_bottom_button">
+                                <div class="alert_bottom_button_left">
+                                    <asp:Button ID="btnConfirmOk" runat="server" SkinID="ButtonLeft" OnClick="btnConfirmOk_Click" />
+                                </div>
+                                <div class="alert_bottom_button_right">
+                                    <asp:Button ID="btnConfirmNo" runat="server" SkinID="ButtonRight" OnClick="btnConfirmNo_Click" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </asp:Panel>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+    </div>
+
+    <%-- HEADER --%>
+    <div class="header" style="position: relative;">
+        <div class="Inner_header" style="height: 70px;">
+            <div class="Inner_Left">
+                <asp:Image ID="imgHeader" runat="server" ImageAlign="AbsMiddle" Width="180px" Height="50px" />
+            </div>
+            <div class="Inner_Center">
+                <asp:Label ID="lblHeader" runat="server" ForeColor="White" Font-Bold="true" Font-Size="XX-Large" />
+            </div>
+            <div class="Inner_Right">
+                <div style="position: static; width: 380px; text-align: right;">
+                    <asp:Image ID="imgUsuario" runat="server" ImageAlign="Middle" Width="50px" Height="50px" />
+                    <asp:Label ID="lblNomeUsuario" runat="server" ForeColor="White" Font-Bold="true" />
+                    <asp:LinkButton ID="lbLogOnLogOff" runat="server" Font-Bold="true" 
+                        ForeColor="White" onclick="lbLogOnLogOff_Click" />
+                </div>
+                <div style="position: static; width: 380px; text-align: right;">
+                    <asp:Label ID="lblAcesso" runat="server" ForeColor="White" Font-Bold="true" Font-Size="Smaller" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%-- BODY --%>
+    <div style="width: 99%; height: 100%; margin-left: 0.5%; margin-top: 5px; margin-bottom: 80px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <%-- FOOTER --%>
+    <div class="footer">
+        <div class="Inner_footer">
+            <div class="Inner_Left">
+                <asp:Label ID="lblFooterVersion" runat="server" ForeColor="White" Font-Bold="true" Visible="true" />
+            </div>
+            <div class="Inner_Right">
+                <asp:Label ID="lblFooterCopiryght" runat="server" ForeColor="White" Font-Bold="true" />
+            </div>
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>

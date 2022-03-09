@@ -1,0 +1,67 @@
+﻿
+<%-- TEXTBOX --%>
+<asp:TextBox runat="server" CssClass="TextBox" />
+<asp:TextBox runat="server" CssClass="TextBoxData" SkinID="Data" Height="15px"/>
+<asp:TextBox runat="server" CssClass="TextBox" SkinID="Pedido" Width="80px" Height="15px"/>
+<asp:TextBox runat="server" CssClass="TextBox" SkinID="Filtro" Width="150px" Height="15px" />
+<asp:TextBox runat="server" CssClass="TextBox" SkinID="SmallFilter" Width="100px" Height="15px" />
+
+<%-- LABEL --%>
+<asp:Label runat="server" CssClass="Label" />
+<asp:Label runat="server" CssClass="Label" SkinID="LabelForm" Width="150px" />
+<asp:Label runat="server" CssClass="LabelResposta" SkinID="LabelResposta" />
+<asp:Label runat="server" CssClass="LabelPedido" SkinID="LabelFormPedido" Width="300px" />
+<asp:Label runat="server" SkinID="lblLastShowHide" CssClass="LabelShowHideMenu" />
+
+<%-- BUTTON --%>
+<asp:Button runat="server" CssClass="Button" Height="20"/>
+<asp:Button runat="server" CssClass="ButtonLeft" SkinID="ButtonLeft" Height="20" />
+<asp:Button runat="server" CssClass="ButtonRight" SkinID="ButtonRight" Height="20" />
+<asp:Button runat="server" CssClass="ButtonCenter" SkinID="ButtonCenter" Height="20" />
+
+<%-- LINKBUTTON --%>
+<asp:LinkButton runat="server" CssClass="LinkButton" />
+<asp:LinkButton runat="server" CssClass="LinkButtonLogin" SkinID="LinkButtonLogin" />
+
+<%-- DROPDOWNLIST --%>
+<asp:DropDownList runat="server" CssClass="DropDownList" Height="20px" />
+<asp:DropDownList runat="server" CssClass="DropDownList" SkinID="DropFiltro" Width="150px" Height="20px" />
+<asp:DropDownList runat="server" CssClass="DropDownList" SkinID="DropSmallFilter" Width="100px" Height="20px" />
+
+<%-- GRIDVIEW --%>
+<asp:GridView runat="server" PageSize="10" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="false"  CssClass="GridView" />
+
+<%-- GRIDVIEW para tela de consulta de estoque - CONSOLIDADO --%>
+<asp:GridView runat="server" PageSize="5" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="false"  CssClass="GridView" SkinID="gvConsolidadoEstoque" />
+
+<%-- GRIDVIEW estoque com paginação--%>
+<asp:GridView runat="server" PageSize="5" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="false" CssClass="GridView"  SkinID="gvEstoquePaginado"/>
+<asp:GridView runat="server" PageSize="5" AutoGenerateColumns="false" AllowPaging="true" AllowSorting="false" CssClass="GridView"  SkinID="gvEstoquePaginadoDetalhado" />
+<asp:GridView runat="server" AutoGenerateColumns="false" AllowPaging="false" AllowSorting="false" CssClass="GridView"  SkinID="gvUniquePage" />
+
+<%-- CheckBoxList --%>
+<asp:CheckBoxList runat="server" CssClass="CheckBoxList_RadioButtonList" />
+
+<%-- CheckBox -- FOI UTILIZADO O SKINID, PELO FATO DE QUE QUANDO SE USA A CLASSE PARA TODOS OS CHECKBOXES,
+                 OS NAVEGADORES NÃO INTERPRETAM OS CHECKBOXES NAS GRIDVIEWS, IMPOSSIBILITANDO O USO DO SCRIPT DE MARCAR TODOS --%>
+<%-- <asp:CheckBox runat="server" CssClass="CheckBox" SkinID="CheckBox" /> --%>
+
+<%-- RadioButtonList --%>
+<asp:RadioButtonList runat="server" CssClass="CheckBoxList_RadioButtonList" />
+<asp:RadioButtonList runat="server" CssClass="tabStrip" SkinID="radioAbas"/>
+
+<%-- ImageButton --%>
+<asp:ImageButton runat="server" CssClass="ImageButtonGrid" SkinID="ImgGrid" />
+
+<%-- FileUpload --%>
+<asp:FileUpload runat="server" CssClass="FileUpload" />
+
+<asp:ListBox runat="server" CssClass="ListBox" />
+
+<%-- Panel pop up --%>
+<asp:Panel runat="server" CssClass="Panel" SkinID="PnlPopUp" />
+<asp:Panel runat="server" CssClass="PanelMenu" SkinID="PnlMenu" />
+
+<%-- DataList --%>
+<asp:DataList runat="server" CssClass="DataList" SkinID="" />
+ 

@@ -1,0 +1,50 @@
+﻿#dvPrecoVenda {
+    background-color: #a2c5ef;
+}
+
+.card-header {
+    background-color: #000066;
+    color: #DBE5F1;
+    height: 29px;
+}
+
+.tb-body-left {
+    margin: 0 0 0 5px;
+    font-size: 1vw;
+    float: left;
+}
+
+.tb-body-left-color {
+    margin: 0 0 0 5px;
+    font-size: 1vw;
+    float: left;
+    background-color: #DBE5F1;
+}
+
+.tb-body-right {
+    margin: 0 2px 0 0;
+    font-size: 1vw;
+    float: right;
+}
+
+.tb-body-right-color {
+    font-size: 1vw;
+    vertical-align: middle;
+    text-align: right;
+    background-color: #DBE5F1;
+}
+
+desabilitaHomolog {
+    display: none;
+}
+
+habilitaHomolog {
+    display: block;
+}
+
+.divStylles {
+    display: none;
+    background-color: white;
+    height: 100%;
+    padding: 0 0 100px 0
+}

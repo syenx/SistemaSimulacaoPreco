@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ABCPharma.master.cs" Inherits="KS.SimuladorPrecos.AppMaster.ABCPharma" %>
+
+
+<%-- CONTROLES  --%>
+<%@ Register Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit" TagPrefix="ucc" %>
+<%@ Register Src="~/AppControles/CtlAlert.ascx" TagName="CtlAlert" TagPrefix="CtlAlt" %>
+<%@ Register Src="~/AppControles/CtlOption.ascx" TagName="ControlOption" TagPrefix="CtlOption" %>
+<%-- *********  --%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+    <title></title>
+    <script language="javascript" type="text/javascript" src="../../Scripts/KSSimuladorPrecosScripts.js"></script>
+    <%--<link rel="shortcut icon" href="../Imagens/Icone.ico" />--%>
+    <link rel="shortcut icon" href="../Imagens/logo-oncosales-topo1.png" />
+    <link href="../Styles/Style.css" rel="Stylesheet" type="text/css" />
+   <%-- <link href="http://localhost:9436/Styles/bootstrap.css" rel="stylesheet" />--%>
+    <%--<link  type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--%>
+                    
+<%--    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>--%>
+<%--    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>--%>
+
+
+    <%-- If dont has acess internet  --%>
+
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+              <link href="../../Styles/bootstrap.min.css" rel="stylesheet" />
+    <script type="text/javascript"  src="../../Scripts/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/popper.min.js"></script>
+    <script type="text/javascript"  src="../../Scripts/bootstrap.min.js"></script>
+    <link href="../../Styles/bootstrap.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:#ecf0f3">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="smMaster" runat="server" AllowCustomErrorsRedirect="true"
+            AsyncPostBackTimeout="600" ScriptMode="Debug" EnableScriptGlobalization="true"
+            EnableScriptLocalization="true" EnablePageMethods="true" />
+
+        <%-- CONTROLES --%>
+        <CtlAlt:CtlAlert ID="CtlAlert" runat="server" />
+        <CtlOption:ControlOption ID="CtlOption" runat="server" />
+
+
+        <%-- HEADER --%>
+          <div class="header" style="position: relative; z-index:1; margin:0 0 0 0">
+            <div class="Inner_header" ">
+                <div class="Inner_Left">
+                    <asp:Image ID="Image1" ImageUrl="../Imagens/Oncoprod_monocromatica.png" class="img-responsive"  runat="server" />
+                </div>
+                <div class="Inner_Center">
+                    <label class="control-label" style="font-size:2vw; color:#485d74 ; margin:0 0 0 20%">ABC Pharma</label>
+                </div>
+                <div class="Inner_Right">
+                    <div style="position: static; width: 380px; text-align: right;">
+                        <asp:Label ID="lblNomeUsuario" runat="server" style="font-size:1vw;" Font-Bold="true" />
+                        <asp:LinkButton ID="lbLogOnLogOff" style="font-size:1vw;" runat="server" OnClick="lbLogOnLogOff_Click"  ForeColor="Black" data-target="#exampleModal" data-toggle="exampleModal" Font-Bold="true"/>
+                    </div>
+                    <div style="position: static; width: 380px; text-align: right; display:none">
+                        <asp:Label ID="lblAcesso" runat="server" ForeColor="White" Font-Bold="true" Font-Size="Smaller" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%-- BODY --%>
+        <div style=" margin: 37px 50px 79px 50px;  position:relative" >
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div><!-- Button trigger modal -->
+
+        
+        <%-- BLOCO CONFIRMAR --%>
+        <div class="modal fade" id="exampleModal" runat="server" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title"  id="exampleModalLabel">
+                      <img src="../../Imagens/Oncoprod_monocromática.png"  style="height:30px" class="img-responsive"/>
+                    <asp:Label ID="lblConfirmHeader" runat="server" ForeColor="White" />
+
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <asp:Label ID="lblConfirmBody" runat="server" ForeColor="Black" />
+              </div>
+              <div class="modal-footer">
+                <asp:Button ID="btnConfirmOk" runat="server" SkinID="ButtonBootStrap" OnClick="btnConfirmOk_Click" />
+                <asp:Button ID="btnConfirmNo" runat="server" SkinID="ButtonBootStrap" OnClick="btnConfirmNo_Click" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+    
+              
+
+        <%-- FOOTER --%>
+        <div class="footer"  style="display:none"  >
+            <div class="Inner_footer">
+                <div class="Inner_Left">
+                    <asp:Label ID="lblFooterVersion" runat="server" ForeColor="White" Font-Bold="true" Visible="true" />
+                </div>
+                <div class="Inner_Right">
+                    <asp:Label ID="lblFooterCopiryght" runat="server" ForeColor="White" Font-Bold="true" />
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+
+     
+</body>
+</html>

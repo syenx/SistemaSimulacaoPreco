@@ -1,0 +1,2 @@
+C:\Users\MARCELO\Documents\Projetos OncoProd\PortalVendaOnco_SIMULADOR\SIMULADOR PRECO SPINRAZA\KS.SimuladorPrecos\TesteDLL\obj\Debug\TesteDLL.csprojAssemblyReference.cache
+C:\Users\MARCELO\Documents\Projetos OncoProd\PortalVendaOnco_SIMULADOR\SIMULADOR PRECO SPINRAZA\KS.SimuladorPrecos\TesteDLL\obj\Debug\TesteDLL.csproj.CoreCompileInputs.cache

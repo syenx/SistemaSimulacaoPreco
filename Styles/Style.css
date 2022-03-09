@@ -1,0 +1,1383 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    /*font-size: 0.8em;*/
+    background-color: #ECF0F3;
+    font-size: 11px;
+    font-family: Gill Sans,Arial,Tahoma;
+}
+
+textUpper {
+    text-transform: uppercase;
+}
+
+#content {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+    #content form {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+/*///// BLOCO FIELDSET /////*/
+
+fieldset {
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+    padding: 1px 5px 1px 5px;
+}
+
+legend {
+    text-transform: uppercase;
+    padding: 3px;
+    margin-left: 1em;
+    color: #FFFFFF;
+    background: #13213C;
+    font-weight: bold;
+}
+
+.legend_normal {
+    text-transform: none;
+    color: #13213C;
+    font-weight: bold;
+    background: transparent;
+    padding: 0px;
+    margin-left: 1em;
+}
+
+fieldset ol {
+    list-style: none;
+    margin: 0 0 0 0;
+}
+
+fieldset li {
+    text-align: left;
+}
+
+/*///// DIV ///// */
+
+.login {
+    width: 60%;
+    height: 35%;
+    /*background-color: #13213C; */
+    background-color: #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    border: solid 1px #13213C;
+    position: fixed;
+    left: 20%;
+    top: 32.5%;
+    display: table;
+}
+
+.login_In {
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    position: static;
+    background-color: transparent;
+    border-radius: 5px 5px 5px 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login_line {
+    width: 100%;
+    display: table;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.login_label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 30%;
+    padding: 1px 2px 1px 2px;
+}
+
+.login_text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding: 1px 2px 1px 2px;
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+    background-color: #000000;
+    display: table;
+    position: fixed;
+}
+
+.footer {
+    width: 99%;
+    height: 50px;
+    bottom: 5px;
+    left: 7px;
+    display: table;
+    position: fixed;
+    _position: absolute;
+}
+
+.Inner_header, .Inner_footer {
+    height: 50px;
+    background-color: #D9DEE4;
+    width: 100%;
+    display: table;
+    position: fixed;
+}
+
+.Inner_footer {
+    border-radius: 0 0 5px 5px;
+}
+
+.Inner_Left {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    height: 50px;
+    width: 20%;
+}
+
+.Inner_Right {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 10px;
+    width: 20%;
+}
+
+.Inner_Center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: auto !important;
+}
+
+/*///// OPACITY BACKGROUND /////*/
+
+.OpacityBackGround, .ProgressBackGround {
+    background-color: #CCCCFF;
+    opacity: 0.50;
+    -moz-opacity: 0.50;
+    filter: alpha(opacity=50);
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    _top: expression( ( ( ignoreMe = document.documentElement.scrollTop ) ) + 'px' );
+    _height: expression( ( document.documentElement.clientHeight ) + 'px' );
+    z-index: 1;
+}
+
+/*///// PROGRESS BACKGROUND /////*/
+.ProgressBackGround {
+    background: #CCCCFF url(../Imagens/Loading.gif) center center no-repeat;
+    background-color: #CCCCFF;
+    z-index: 10;
+}
+
+/*///// ORDENED LIST /////*/
+
+ol {
+    /*margin-top: 10px;*/
+    list-style: none;
+}
+
+    ol li {
+        padding-bottom: 3px;
+        margin-left: 0px;
+        vertical-align: middle;
+    }
+
+        ol li a {
+            text-decoration: none;
+        }
+
+/*///// BLOCO LABEL /////*/
+
+.Label, .LabelResposta, .LabelPedido {
+    text-align: right;
+    /*font-weight: bold;*/
+    color: #000000;
+    font-size: 15px;
+    font-size: 1vw;
+}
+
+.LabelResposta, .LabelPedido {
+    color: #13213C;
+}
+
+.LabelPedido {
+    text-align: left;
+}
+
+.LabelResposta {
+    text-transform: uppercase;
+    color: Blue;
+}
+
+
+
+
+
+/*///// BLOCO TEXTBOX /////*/
+
+.TextBox, .TextBox:hover, .TextBox:focus, .TextBoxData {
+    /*
+	padding: 5px;
+	border:	1px solid #13213C;
+	background-color: #DADAD9;
+	border-radius: 5px 5px 5px 5px;
+	width: 250px;*/
+    border: 1px solid #AcA899;
+    border-left: 4px solid #AcA899;
+    border-radius: 5px 5px 5px 5px;
+    width: 250px;
+    text-transform: uppercase;
+}
+
+.TextBoxData {
+    width: 90px;
+}
+
+    .TextBox:focus, .TextBoxData:focus {
+        background-color: #A9A9A9;
+    }
+
+
+/*///// BLOCO BUTTON /////*/
+
+.Button, .ButtonCenter, .ButtonLeft, .ButtonRight {
+    width: 75px;
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+    .Button, .Button:hover {
+        color: #000000;
+        font-weight: bold;
+        border: solid 1px #000000;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .ButtonLeft, .ButtonLeft:Hover {
+        color: #000000;
+        font-weight: bold;
+        border: solid 1px #000000;
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .ButtonRight, .ButtonRight:hover {
+        color: #000000;
+        font-weight: bold;
+        border: solid 1px #000000;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .ButtonCenter, .ButtonCenter:hover {
+        color: #000000;
+        font-weight: bold;
+        border: solid 1px #000000;
+    }
+
+        .Button:hover, .ButtonLeft:Hover, .ButtonRight:hover, .ButtonCenter:hover {
+            background-color: #00FF00;
+            cursor: hand;
+            height: 30px;
+            color: #FFFFFF;
+            background-color: #13213C;
+        }
+
+/*///// LINK BUTTON /////*/
+
+.LinkButtonLogin {
+    color: #13213C;
+}
+
+.LinkButton {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*///// BLOCO DROPDOWNLIST /////*/
+
+.DropDownList {
+    /*background-color: #DADAD9;
+	border: solid 1px #13213C;
+    height: 28px;*/
+    border-radius: 5px 5px 5px 5px;
+    width: 262px;
+    border: 1px solid #AcA899;
+    border-left: 4px solid #AcA899;
+    text-transform: uppercase;
+}
+
+    .DropDownList:focus {
+        background-color: #DADAD9;
+        text-transform: uppercase;
+    }
+
+/*///// BLOCO FILEUPLOAD /////*/
+
+.FileUpload {
+    border: solid 1px #13213C;
+    font-weight: bold;
+    color: #14293E;
+    background-color: #DADAD9;
+    height: 28px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+    .FileUpload:focus {
+        background-color: #A9A9A9;
+    }
+
+/*///// BLOCO GRIDVIEW /////*/
+
+.GridView {
+    width: 100%;
+    font-size: 10px;
+}
+
+    .GridView th, .GridView th:hover, .GridViewDif th, .GridViewDif th:hover {
+        text-transform: uppercase;
+        background-color: #13213C;
+        color: #FFFFFF;
+        font-weight: bold;
+        text-align: center;
+        height: 15px;
+    }
+
+        .GridViewDif th, .GridViewDif th:hover {
+            background-color: Red;
+        }
+
+        .GridView th a, .GridView th a:hover {
+            background-color: #13213C;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align: center;
+        }
+
+            .GridView th a:hover {
+                text-decoration: underline;
+            }
+
+    .GridView a {
+        text-align: center;
+        text-decoration: none;
+        color: #13213C;
+        font-size: 0.9em;
+        display: block;
+    }
+
+        .GridView a:hover {
+            text-align: center;
+            color: #13213C;
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+        }
+
+    .GridView tr td, .GridView tr td:hover {
+        height: 30px;
+    }
+
+    .GridView tr:hover {
+        background-color: #FBBA5F;
+        font-weight: bold;
+    }
+
+.GridViewPagerStyle td {
+    font-weight: bold;
+    border: none;
+}
+
+    .GridViewPagerStyle td:hover {
+        font-weight: bold;
+        border: none;
+    }
+
+.GridViewPagerStyle span {
+    vertical-align: middle;
+    color: #1A344D;
+    font-weight: normal;
+}
+
+.GridViewPagerStyle a {
+    font-weight: bold;
+    color: #13213C;
+    font-size: 0.9em;
+}
+
+    .GridViewPagerStyle a:hover {
+        font-weight: bold;
+        color: #13213C;
+        font-size: 1.1em;
+    }
+
+
+/*///// BLOCO MENU HORIZONTAL /////*/
+
+/*///// MENU LINHA PRINCIPAL /////*/
+
+.menuhorizontal table {
+    z-index: 0;
+    padding: 0px;
+    height: 25px;
+}
+
+.menuhorizontal {
+    padding: 0;
+    width: 99%;
+    height: 25px;
+    border-top: 5px solid #13213C;
+    background: transparent;
+    margin-top: 40px;
+    margin-left: 0.5%;
+    z-index: 0;
+    /*position: absolute;*/
+    background-color: #13213C;
+}
+
+    .menuhorizontal ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        z-index: 0;
+    }
+
+    .menuhorizontal li {
+        display: block;
+        margin: 0 2px 0 0;
+        padding: 0;
+        text-transform: uppercase;
+        z-index: 0;
+    }
+
+        .menuhorizontal li a {
+            float: left;
+            display: block;
+            font-weight: bold;
+            color: #13213C;
+            text-decoration: none;
+            /*margin: 0 1px 0 0;*/
+            margin: 1px 1px 0 0;
+            padding: 5px 10px;
+            background-color: #FFFFFF;
+            /*border-top: 1px solid white;	*/
+            border: solid 1px #13213C;
+            text-align: center;
+            width: 110px;
+            font-size: 1em;
+            z-index: 0;
+        }
+
+            .menuhorizontal li a:hover {
+                background-color: #13213C;
+                color: #FFFFFF;
+                border-top: solid 2px #13213C;
+                width: 110px;
+                font-size: 1em;
+                margin: 0px 1px 0 0;
+                z-index: 0;
+            }
+
+        /*///// MENU SECUNDÁRIO /////*/
+
+        .menuhorizontal li ul {
+            position: absolute;
+            display: none;
+            margin-top: 27px;
+            /*margin-top: 2.10em;*/
+            z-index: 0;
+        }
+
+            .menuhorizontal li ul a {
+                float: left;
+                display: block;
+                font-weight: bold;
+                color: #13213C;
+                text-decoration: none;
+                margin: 0 1px 0 0;
+                padding: 5px 10px;
+                background-color: #FFFFFF;
+                border-top: 1px solid white;
+                text-align: left;
+                width: 110px;
+                font-size: 1em;
+                z-index: 0;
+            }
+
+                .menuhorizontal li ul a:hover {
+                    background-color: #13213C;
+                    color: #FFFFFF;
+                    border-color: #13213C;
+                    width: 110px;
+                    font-size: 1em;
+                    z-index: 0;
+                }
+
+            /*///// MENU TERCEÁRIO /////*/
+
+            .menuhorizontal li ul li ul {
+                position: absolute;
+                display: none;
+                margin-top: 0;
+                left: 131px;
+                z-index: 0;
+            }
+
+                .menuhorizontal li ul li ul a {
+                    float: left;
+                    display: block;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    margin: 0 1px 0 0;
+                    padding: 5px 10px;
+                    background-color: #00FF00;
+                    border-top: 1px solid white;
+                    text-align: left;
+                    width: 110px;
+                    z-index: 0;
+                }
+
+                    .menuhorizontal li ul li ul a:hover {
+                        background-color: #13213C;
+                        color: white;
+                        border-color: #13213C;
+                        width: 110px;
+                        z-index: 0;
+                    }
+
+/*///// FIM DO BLOCO MENU HORIZONTAL /////*/
+
+/******\\ TOOLTIP //******/
+.toolTip {
+    font-family: Tahoma;
+    color: white;
+    /*background-color:#3CB453;*/
+    background-color: #1A344D;
+    /*border: solid 1px #2F8C46;*/
+    border: solid 1px #14293E;
+    padding: 0 0 0 0;
+}
+
+    .toolTip a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+        .toolTip a:hover {
+            text-decoration: none;
+            font-weight: bold;
+            /*color:#2F8C46;*/
+            color: #14293E;
+        }
+
+/****** AUTOCOMPLETE ******/
+
+/* AutoComplete flyout*/
+.autocomplete_list {
+    width: 500px !important;
+    margin: 0px !important;
+    padding: 0px;
+    color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    list-style-type: none;
+    overflow: auto;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+/* AutoComplete highlighted item */
+.autocomplete_highlighted_listitem {
+    background-color: #14293E;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* AutoComplete item */
+.autocomplete_listitem {
+    background-color: #DADAD9;
+}
+
+/*///// CHECKBOX /////*/
+.CheckBox {
+    font-weight: bold;
+    vertical-align: middle;
+    color: #14293E;
+}
+
+/*///// CHECKBOXLIST /////*/
+.CheckBoxList_RadioButtonList {
+    font-weight: bold;
+    vertical-align: middle;
+    color: #000000;
+    border: 0;
+}
+
+/****** LAYOUT DO CONTROLE ALERT ******/
+
+.alert {
+    width: 35%;
+    height: 200px;
+    background-color: #13213C;
+    left: 32.5%;
+    top: 32.5%;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px #13213C;
+    display: table;
+    z-index: 8;
+    position: fixed;
+}
+
+.alert_header {
+    margin-top: 0;
+    height: 40px;
+    background-color: #13213C;
+    width: 100%;
+    position: relative;
+    border-bottom: solid 1px #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    display: table;
+}
+
+.alert_header_message {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+    color: #FFFFFF;
+}
+
+.alert_header_icon {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.alert_body {
+    width: 96%;
+    height: 109px;
+    left: 1.5%;
+    background-color: #FFFFFF;
+    overflow-x: none;
+    overflow-y: scroll;
+    position: absolute;
+    margin-top: 1px;
+    padding: 3px 3px 3px 3px;
+    border-top: solid 1px #13213C;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 0 0 5px 5px;
+}
+
+.alert_body_Error {
+    width: 96%;
+    height: 109px;
+    left: 1.5%;
+    background-color: #FFFFFF;
+    overflow: none;
+    position: relative;
+    margin-top: 0px;
+    padding: 3px 3px 3px 3px;
+    border-top: solid 1px #13213C;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 0 0 5px 5px;
+}
+
+.alert_bottom {
+    bottom: 1px;
+    width: 99.62%;
+    height: 40px;
+    text-align: center;
+    border-top: solid 1px #13213C;
+    background-color: #13213C;
+    border-radius: 0 0 10px 10px;
+    left: 1px;
+    position: absolute;
+    display: table;
+}
+
+.alert_bottom_button {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.alert_bottom_button_left {
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+
+.alert_bottom_button_right {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+.alert {
+    position: absolute;
+}
+/****** CALENDÁRIO ******/
+
+.Calendario {
+    text-align: center;
+    text-transform: uppercase;
+    color: #13213C;
+    font-weight: bold;
+    padding: 2px 2px 2px 2px;
+    background-color: #FFFFFF;
+    border: 1px solid #13213C;
+}
+
+    .Calendario table {
+        border: solid 1px #13213C;
+        text-align: center;
+    }
+
+    .Calendario td {
+        text-align: center;
+        vertical-align: middle;
+        background-color: #13213C;
+        color: White;
+        font-weight: bold;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        border: solid 1px white;
+    }
+
+        .Calendario td:hover {
+            text-align: center;
+            vertical-align: middle;
+            background-color: White;
+            color: #13213C;
+            font-weight: bold;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            border: solid 1px white;
+        }
+
+/****** PANEL LAYOUT ******/
+.Panel {
+    z-index: 2;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.painel, .painel_Nv1, .painel_Nv2 {
+    /*width: 80%; 
+    height: 80%; */
+    width: 90%;
+    height: 90%;
+    position: fixed;
+    background-color: #13213C;
+    /*left: 10%; 
+    top: 10%; */
+    left: 5%;
+    top: 5%;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px #13213C;
+    display: table;
+    z-index: 3;
+}
+
+.painel_Nv1 {
+    z-index: 4;
+}
+
+.painel_Nv2 {
+    z-index: 5;
+}
+
+.painel_header {
+    margin-top: 0;
+    height: 40px;
+    background-color: #13213C;
+    width: 100%;
+    position: static;
+    border-bottom: solid 1px #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    display: table;
+}
+
+.painel_header_message {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+    color: #FFFFFF;
+}
+
+.painel_body {
+    width: 96%;
+    left: 1.6%;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-top: 1px;
+    padding: 3px 3px 3px 3px;
+    border-top: solid 1px #13213C;
+    display: table-cell;
+    vertical-align: middle;
+    height: 85%;
+    overflow-x: none;
+    overflow-y: scroll;
+    border-radius: 0 0 5px 5px;
+}
+
+    .painel_body fieldset {
+        height: 98%;
+    }
+
+.painel_bottom {
+    bottom: 1px;
+    width: 99.8%;
+    height: 40px;
+    text-align: center;
+    border-top: solid 1px #13213C;
+    background-color: #13213C;
+    border-radius: 0 0 10px 10px;
+    left: 1px;
+    position: absolute;
+    display: table;
+}
+
+.painel_bottom_button {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.painel_bottom_button_left {
+    width: 50%;
+    text-align: right;
+    float: left;
+}
+
+.painel_bottom_button_right {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+/****** BLOCO RADIOBUTTONLIST/CHECKBOXLIST IN LIST ******/
+.line {
+    width: 100%;
+    display: table;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.line_itens_left {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.line_itens {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 1px 2px 1px 4px;
+    text-align: left;
+}
+
+/*///// PAINEL FILTROS /////*/
+.navegacao {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 0 0 0;
+    display: table;
+    text-align: right;
+    float: right;
+}
+
+.boxPesquisa, .boxPesquisaCurta, .boxPesquisaMaisCurta {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #B3B3B3;
+    padding-left: 5px;
+    padding-right: 3px;
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.boxPesquisaCurta {
+    width: 180px;
+}
+
+.boxPesquisaMaisCurta {
+    width: 100px;
+}
+
+.gridRegistros {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+
+.ImageButtonGrid {
+    width: 30px;
+    height: 30px;
+}
+
+    .ImageButtonGrid:hover, .ImageButtonGrid:focus {
+        width: 65px;
+        height: 65px;
+        margin: -30px -35px -25px -35px; /* Para o firefox */
+        margin: -30px -30px -25px -10px\9; /** somente no IE - todas as versões **/
+        position: absolute;
+    }
+
+/*** somente no Chrome ***/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .ImageButtonGrid:hover, .ImageButtonGrid:focus {
+        position: inherit;
+        margin: -25px -10px -25px -10px;
+    }
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.div_a {
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 5px 5px 5px 5px;
+    background-color: transparent;
+    width: 400px;
+    color: #000000;
+    height: 25px;
+}
+
+    .div_a:hover {
+        display: table-cell;
+        vertical-align: middle;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #13213C;
+        width: 400px;
+        color: #FFFFFF;
+        height: 25px;
+    }
+
+        .div_a:hover a {
+            color: #FFFFFF;
+        }
+
+
+/* ABAS */
+.tabStripMainContainer {
+    margin: 5px 0px 0px 0px;
+}
+
+.tabStrip {
+    font: 12px Verdana, sans-serif;
+    color: #000; /* non selected color */
+}
+
+    .tabStrip input {
+        width: 0px;
+        height: 0px;
+    }
+
+    .tabStrip label {
+        color: #3E3928;
+        background-color: #FFFFFF;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 4px;
+        padding-bottom: 0px;
+        margin: 0px 0px 0px 0px;
+        white-space: nowrap;
+        clear: left;
+        margin-right: 5px;
+        /*border-radius: 5px 5px 0px 0px;*/
+    }
+
+    .tabStrip span.selectedradio label {
+        background-color: #FFFFFF;
+        /*color: #000000;*/
+        /*border-bottom-color: #FFFFFF;*/
+        padding-top: 4px;
+    }
+
+    .tabStrip label:hover {
+        background: #D2D2D2;
+    }
+
+.tabStripContainer {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.tabStripPanel {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    position: relative;
+    z-index: 0;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: solid 1px #AcA899;
+    margin: 0px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border-radius: 0px 15px 0px 15px;
+}
+
+/* LISTBOX */
+
+.ListBox {
+    width: 100%;
+    height: 100%;
+}
+
+.TextMenu1 {
+    color: Red;
+    font-weight: bold;
+}
+
+/* Menu obout */
+.parentMenuContainer {
+    z-index: -1;
+}
+
+.menuContainer {
+    z-index: -1;
+}
+
+/***** DIV FORMULÁRIO *****/
+
+.dv_form {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 2px;
+}
+
+/* AutoComplete */
+
+/* AutoComplete flyout*/
+.autocomplete_list {
+    margin: 0px !important;
+    padding: 0px;
+    color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    list-style-type: none;
+    overflow: auto;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+/* AutoComplete highlighted item */
+.autocomplete_highlighted_listitem {
+    background-color: #14293E;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* AutoComplete item */
+.autocomplete_listitem {
+    background-color: #DADAD9;
+}
+
+.LabelShowHideMenu {
+    text-align: left;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.PanelMenu {
+    border: solid 2px #13213C;
+    padding: 5px 5px 5px 5px;
+}
+
+.DataList {
+    margin-bottom: 80px;
+}
+
+
+
+
+.card-deck {
+    padding: 10px 0 0 0;
+    height: auto;
+    width: auto;
+}
+
+.card-header {
+    background-color: #13213C;
+    font-size: 1vw;
+    color: #000;
+    margin: 0 0 0 0;
+}
+
+.td {
+    margin: 0 0 0 0;
+    width: 23%;
+    border-top: 0;
+    padding: 0 0 0 0;
+}
+
+@media only screen and (max-width: 320px) {
+
+    body {
+        font-size: 2em;
+    }
+
+    label {
+        font-size: 2em;
+    }
+}
+
+.card-body {
+    padding: 0 0 0 0 !important;
+}
+
+.card-body-pesquisa {
+    height: 100%;
+    width: auto;
+    color: #000000;
+    margin: 1px 2px 2px 0;
+    height: 26px;
+    background-color: #FFFFE0;
+    padding: 7px 0 9px 9px;
+    /*background-color: #c3d1f6;*/
+    font-size: 11px;
+}
+
+form-control-Simulador {
+    height: 27px;
+}
+
+.table td {
+    border: 0;
+}
+
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 1px 7px 6px 0 !important;
+    line-height: 1px;
+    vertical-align: top;
+}
+
+
+
+/* AutoComplete flyout*/
+.autocomplete_list2, .autocomplete_list2 {
+    margin: 0px !important;
+    padding: 0px;
+    color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    line-height: normal;
+    height: auto;
+    overflow: auto;
+    font-family: Tahoma;
+    font-size: 1vw;
+    width: auto;
+    z-index: 1
+}
+
+.autocomplete_list2 {
+    width: auto !important;
+}
+
+/* AutoComplete highlighted item */
+.autocomplete_highlighted_listitem2 {
+    background-color: #14293E;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* AutoComplete item */
+.autocomplete_listitem2 {
+    background-color: #DADAD9;
+    position: relative;
+    grid-template: initial;
+    width: auto;
+}
+
+
+.rbl input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 9px 9px 0 10px !important;
+    /*margin-top: 1px;*/
+    line-height: normal;
+}
+
+input {
+    font-size: 2vw
+}
+
+
+
+desabilitaHomolog {
+    display: none;
+    background-color: #fdfd00;
+}
+
+habilitaHomolog {
+    background: rgb(248, 255, 6);
+    position: absolute;
+    z-index: 1061;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+#dvPrecoVenda {
+    background-color: #a2c5ef;
+}
+
+.card-header {
+    background-color: #000066;
+    color: #DBE5F1;
+    height: 29px;
+}
+
+.tb-body-left {
+    margin: 0 0 0 5px;
+    font-size: 1vw;
+    float: left;
+}
+
+.tb-body-left-color {
+    margin: 0 0 0 5px;
+    font-size: 1vw;
+    float: left;
+    background-color: #DBE5F1;
+}
+
+
+
+.tb-body-right {
+    margin: 0 2px 0 0;
+    font-size: 1vw;
+    float: right;
+}
+
+.tb-body-right-color {
+    font-size: 1vw;
+    vertical-align: middle;
+    text-align: right;
+    background-color: #DBE5F1;
+}
+
+
+
+desabilitaHomolog {
+    display: none;
+}
+
+habilitaHomolog {
+    display: block;
+}
+
+
+
+ajustePainelDesabilitado {
+    display: none;
+    background-color: white;
+    padding: 10px 0 0 0;
+}
